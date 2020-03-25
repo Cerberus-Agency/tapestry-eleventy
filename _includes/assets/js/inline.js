@@ -7,3 +7,12 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+
+var $hamburger = jQuery(".hamburger");
+$hamburger.on("click", function(e) {
+$hamburger.toggleClass("is-active");
+// Do something else, like open/close menu
+jQuery("#site-navigation").toggleClass("is-active");
+console.log("menu active!");
+});

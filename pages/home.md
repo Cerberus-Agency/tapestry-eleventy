@@ -1,20 +1,23 @@
 ---
 layout: layouts/home.njk
-title: Home
+title: Tapestry Linens & Decor
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+# NEW ORLEANS' PREMIER SOURCE FOR LINENS, DECOR, AND FLORAL DESIGNS.
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+From elegant chair coverings, stunning tablecloths, and specialty linen rentals to furniture, centerpieces, and distinctive floral arrangements, Tapestry provides all manner of party linen and special event rentals. Elegant, outrageous, smart, or ostentatious, the talented Tapestry design and planning professionals work to provide ideal finishes perfectly suited to each event. The result is a longstanding reputation for excellence and countless affairs to remember.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+<button>Share Your Vision</button>
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+<div class="grid homepage-photos">
+	<img class="photo-1" src="static/img/courtyard-whitechairs-1000.jpg" alt="courtyard with chairs">
+	<img class="photo-2" src="static/img/courtyard-whitechairs-1000.jpg" alt="courtyard with chairs">
+	<img class="photo-3" src="static/img/courtyard-whitechairs-1000.jpg" alt="courtyard with chairs">
+	<img class="photo-4" src="static/img/reykavodkahut-square-1000.jpg" alt="Reyka Vodka Hut">
+</div>
 
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+##  “LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.”
