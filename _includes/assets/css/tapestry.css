@@ -52,13 +52,14 @@ h3 {
 
 /******* NAVIGATION *******/
 
-a.icon {
+header a.icon {
     background-size: contain !important;
     display: block;
     height: 100%;
     width: 100%;
-    max-height: 53px;
-    max-width: 53px;
+    margin-left: 2em;
+    max-height: 36px;
+    max-width: 36px;
 }
 
 .icon-facebook a {
@@ -79,7 +80,7 @@ header {
     z-index: 10;
 }
 
-header img.logo {
+header .logo img {
     height: auto;
     max-width: 60%;
 }
