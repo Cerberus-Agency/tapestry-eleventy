@@ -1,0 +1,206 @@
+/******* UTILITY CLASSES *******/
+
+
+
+body {
+    background-color: rgba(255, 204, 51, .2);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 600;
+    letter-spacing: .75em;
+    margin: 2em 0;
+    text-transform: uppercase;
+}
+
+h2.color-white {
+    background: url(static/img/section-header-decoration-desktop-white.png) center top no-repeat;
+    padding-top: 50px;
+}
+
+h2.color-003366 {
+    background: url(static/img/section-header-decoration-desktop-003366.png) center top no-repeat;
+    padding-top: 50px;
+}
+
+h3 {
+    letter-spacing: .5em;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+.alignfull {
+    margin: 0 calc(50% - 50vw);
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.wp-block-cover {
+    clip-path: polygon(100% 0%, 100% 66%, 50% 100%, 0% 66%, 0% 0%);
+}
+
+/******* NAVIGATION *******/
+
+.icon a {
+    background-size: contain !important;
+    display: block;
+    line-height: 2;
+    text-align: left;
+    text-indent: -9999px;
+    height: 100%;
+    width: 100%;
+    max-height: 53px;
+    max-width: 53px;
+}
+
+.icon-facebook a {
+    background: url(../images/facebook.png) center center no-repeat;
+}
+
+.icon-instagram a {
+    background: url(../images/instagram.png) center center no-repeat;
+}
+
+header {
+    background: url(../images/header-curved.svg) center top no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+header img.logo {
+    height: auto;
+    max-width: 60%;
+}
+
+#primary-menu .menu-item {
+    padding: 1em 0 1em 2em;
+    text-transform: uppercase;
+}
+
+#primary-menu .menu-item a {
+    color: #666666;
+    letter-spacing: .25em;
+}
+
+.menu-item.current-menu-item a {
+    color: #ffcc33;
+}
+
+.site-social, .site-branding, .site-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 33%;
+}
+
+.social-media-menu {
+    /*outline: 2px dashed yellowgreen;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 33%;
+    text-align: right;
+}
+
+.social-media-header {
+    margin-left: 1em;
+}
+
+.site-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-footer .social-media-header {
+    margin-left: 0;
+}
+
+#social-logos {
+    /*outline: 2px dashed orange;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 126px;
+    margin: 0;
+    padding: 0;
+}
+
+#social-logos li {
+    height: 100%;
+    width: 100%; 
+    display:inline-block;
+}
+
+.site-footer #social-menu {
+    margin: 1em auto;
+}
+
+#social-menu li {
+    display: block;
+}
+
+a.tel {
+    color: #003366;
+    text-decoration: none;
+}
+
+/******* CONTENT *******/
+
+main {
+    background: #ffffff url(../images/TAP-bg-2.svg) center top repeat-y;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+main h1, main h2, main h3, main p {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: 0.125em;
+}
+
+/******* FOOTER *******/
+
+footer {
+    background-color: #ffffff;
+    padding: 2em 0;
+}
+
+.site-info {
+    text-align: center;
+}
+
+.site-info img.logo {
+    height: 200px;
+    width: 315px;
+}
+
+a.tel {
+    display: block;
+    color: #404040;
+    text-decoration: none;
+}
+
+/******* MEDIA QUERIES: DESKTOP *******/
+
+@media screen and (min-width:768px) {
+    header img.logo {
+        height: auto;
+        max-width: 80%;
+    }
+}
