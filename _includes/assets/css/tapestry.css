@@ -71,11 +71,12 @@ header a.icon {
 }
 
 header {
-    background: url(static/img/header-curved.svg) center top no-repeat;
+    background: url(static/img/header-curved2.svg) center top no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 14em;
     position: relative;
     z-index: 10;
 }
@@ -104,6 +105,7 @@ header .logo img {
     align-items: center;
     justify-content: center;
     flex-basis: 33%;
+    text-align: center;
 }
 
 .social-media-menu {
@@ -121,26 +123,6 @@ header .logo img {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.site-footer .social-media-header {
-    margin-left: 0;
-}
-
-#social-logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 126px;
-    margin: 0;
-    padding: 0;
-}
-
-#social-logos li {
-    height: 100%;
-    width: 100%; 
-    display:inline-block;
 }
 
 .site-footer #social-menu {
@@ -162,7 +144,7 @@ main {
     background: #ffffff url(static/img/TAP-bg-1.svg) center top repeat-y;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1920px;
+    margin-top: -5em;
 }
 
 main h1, main h2, main h3, main p {

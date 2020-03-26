@@ -22,10 +22,6 @@ body {
 	background-color: var(--turkey);
 }
 
-main {
-	max-width: 37.5em;
-}
-
 p,
 pre,
 code {
@@ -39,12 +35,6 @@ a[href]:visited {
 
 a[href]:not(:hover) {
 	text-decoration: none;
-}
-
-header,
-main,
-footer {
-	padding: 1em;
 }
 
 main {
