@@ -1,0 +1,40 @@
+<h2 class="testimonial"><span class="color-white">"LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA."</span></h2>
+<footer class="flex space-around align-items center">
+	<div>
+		<p class="small-heading">Contact Us</p>
+		<form
+			id="contact-form"
+			name="contact"
+			method="POST"
+			data-netlify="true"
+		>
+			<p><label>Name: </label> <input type="text" name="name" /></p>
+			<p>
+				<label>Email Address: </label>
+				<input type="email" name="email" />
+			</p>
+			<p>
+				<label>Phone Number: </label>
+				<input type="phone" name="phone" />
+			</p>
+			<p>
+				<label>Questions/Comments:</label>
+				<textarea name="message"></textarea>
+			</p>
+			<p>
+				<button type="submit"><span>Send</span></button>
+			</p>
+		</form>
+	</div>
+	<div class="site-social">
+		<a class="logo" href="{{ '/' | url }}"
+			><img src="static/img/tapestry-logo.png" alt="Tapestry Linens logo"
+		/></a>
+        <a class="tel" href="tel:5049155719">504-915-5719</a>
+        <div class="icons">
+        	<a class="icon" href="https://facebook.com/tapestrylinens"><img src="static/img/facebook.png" alt="Tapestry Linen's Facebook"></a>
+	        <a class="icon" href="https://instagram.com/tapestrylinens"><img src="static/img/instagram.png" alt="Tapestry Linen's Instagram"></a>
+	    </div>
+        <p class="copyright">&copy; 2020 Tapestry Linens, LLC</p>
+    </div>
+</footer>

@@ -8,11 +8,19 @@ if (window.netlifyIdentity) {
   });
 }
 
-
 var $hamburger = jQuery(".hamburger");
 $hamburger.on("click", function(e) {
 $hamburger.toggleClass("is-active");
 // Do something else, like open/close menu
-jQuery("#site-navigation").toggleClass("is-active");
+$("#site-navigation").toggleClass("is-active");
 console.log("menu active!");
+});
+
+$("#contact-form").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
 });
