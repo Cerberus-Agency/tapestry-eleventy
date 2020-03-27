@@ -156,6 +156,31 @@ a.tel {
     text-decoration: none;
 }
 
+#site-navigation {
+    display: none;
+}
+
+#site-navigation li {
+    display: block;
+}
+
+#site-navigation a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#site-navigation.is-active {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--transblue);
+    padding: 10em;
+}
+
 /******* CONTENT *******/
 
 main {
