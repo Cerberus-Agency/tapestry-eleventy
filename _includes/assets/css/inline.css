@@ -1,8 +1,9 @@
 :root {
-	--turkey: rgba(255, 204, 51, .2);
+	--beige: rgba(255, 204, 51, .2);
 	--white: white;
 	--blue: #003366;
 	--transblue: rgba(0, 51, 102, .9);
+	--gray: #999999;
 }
 
 *, *:before, *:after {
@@ -219,7 +220,7 @@ button.share-your-vision {
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: #000; 
+    background-color: var(--gray); 
 }
 
 .hamburger-box {
@@ -237,7 +238,7 @@ button.share-your-vision {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #000;
+    background-color: var(--gray);
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
