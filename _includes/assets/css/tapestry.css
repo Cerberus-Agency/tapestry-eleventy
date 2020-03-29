@@ -20,13 +20,13 @@ h1 {
 }
 
 h2.color-white, span.color-white {
-    background: url(static/img/section-header-decoration-desktop-white.png) center top no-repeat;
+    background: url(/static/img/section-header-decoration-desktop-white.png) center top no-repeat;
     display: block;
     padding-top: 50px;
 }
 
 h1, h2.color-003366 {
-    background: url(static/img/section-header-decoration-desktop-003366.png) center top no-repeat;
+    background: url(/static/img/section-header-decoration-desktop-003366.png) center top no-repeat;
     padding-top: 50px;
 }
 
@@ -81,15 +81,15 @@ header a.icon {
 }
 
 .icon-facebook a {
-    background: url(static/img/facebook.png) center center no-repeat;
+    background: url(/static/img/facebook.png) center center no-repeat;
 }
 
 .icon-instagram a {
-    background: url(static/img/instagram.png) center center no-repeat;
+    background: url(/static/img/instagram.png) center center no-repeat;
 }
 
 header {
-    background: url(static/img/header-curved2.svg) center top no-repeat;
+    background: url(/static/img/header-curved2.svg) center top no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -162,6 +162,7 @@ a.tel {
 
 #site-navigation li {
     display: block;
+    margin: 1em;
 }
 
 #site-navigation a {
@@ -184,7 +185,7 @@ a.tel {
 /******* CONTENT *******/
 
 main {
-    background: #ffffff url(static/img/TAP-bg-1.svg) center top repeat-y;
+    background: #ffffff url(/static/img/TAP-bg-1.svg) center top repeat-y;
     margin-left: auto;
     margin-right: auto;
     margin-top: -5em;
@@ -253,7 +254,7 @@ main p {
 }
 
 .testimonial {
-    background: url(static/img/testimonial.svg) center bottom no-repeat;
+    background: url(/static/img/testimonial.svg) center bottom no-repeat;
     background-size: cover;
     color: white;
     max-width: 100%;
@@ -266,7 +267,7 @@ main p {
 footer {
     background-color: #ffffff;
     padding: 2em 0;
-    text-align::center;
+    text-align: center;
 }
 
 footer .site-social {
@@ -274,7 +275,7 @@ footer .site-social {
     text-align: center;
 }
 
-footer .logo img {
+footer.footer-home .logo img {
     width: 60%;
 }
 
