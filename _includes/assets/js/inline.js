@@ -28,8 +28,15 @@ $(document).ready(function() {
   $(document).on('change','#chair-covers', function(){
     var category = $(this).val();
     console.log(category);
-    // $('#results').css('display','block');
     $.get('/rentals/chair-covers/'+ category +'/index.html', function( data ) {
+        $('#results').html(data); 
+    });
+  });
+
+    $(document).on('change','#table-linens', function(){
+    var category = $(this).val();
+    console.log(category);
+    $.get('/rentals/table-linens/'+ category +'/index.html', function( data ) {
         $('#results').html(data); 
     });
   });

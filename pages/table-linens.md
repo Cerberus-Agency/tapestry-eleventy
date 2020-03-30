@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<img class="photo fullwidth" src="/static/img/courtyard-whitechairs-1000.jpg" alt="decorated outdoor environment">
+<img class="photo fullwidth" src="/static/img/courtyard-whitechairs-1400.jpg" alt="decorated outdoor environment">
 
 # Table Linens
 
@@ -22,6 +22,7 @@ BANQUET: 90x132”, 90x156”, 108x156”
 
 <form>
 <select id="table-linens" name="table-linens">
+	<option value="">Fabric Options</option>
 	<option value="bengaline-moire">Bengaline Moire</option>
 	<option value="crinkles">Crinkles</option>
 	<option value="bichon-satin">Bichon Satin</option>
@@ -31,3 +32,4 @@ BANQUET: 90x132”, 90x156”, 108x156”
 	<option value="lame">Lam&eacute;</option>
 </select>
 </form>
+<div id="results"></div>
