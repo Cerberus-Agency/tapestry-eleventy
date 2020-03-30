@@ -5,7 +5,7 @@ layout: layouts/plain.njk
 permalink: /rentals/chair-covers/spandex-rouched/index.html
 ---
 
-# Spandex Rouched
+### Spandex Rouched
 
 <p>
 this is the Spandex Rouched page.

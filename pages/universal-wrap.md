@@ -5,7 +5,7 @@ layout: layouts/plain.njk
 permalink: /rentals/chair-covers/universal-wrap/index.html
 ---
 
-# Universal Wrap Lamoure
+### Universal Wrap Lamoure
 
 <p>
 this is the Universal Wrap Lamoure page.
