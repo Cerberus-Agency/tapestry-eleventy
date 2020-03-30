@@ -19,3 +19,15 @@ ROUND: 90”, 96”, 108”, 120”, 132” SQUARE: 90”, 120”, 132”
 SKIRT: 7’, 14’
 
 BANQUET: 90x132”, 90x156”, 108x156”
+
+<form>
+<select id="table-linens" name="table-linens">
+	<option value="bengaline-moire">Bengaline Moire</option>
+	<option value="crinkles">Crinkles</option>
+	<option value="bichon-satin">Bichon Satin</option>
+	<option value="damasks">Damasks</option>
+	<option value="exquisite-payette">Exquisite Payette</option>
+	<option value="glitz-sequins">Glitz Sequins</option>
+	<option value="lame">Lam&eacute;</option>
+</select>
+</form>

@@ -8,7 +8,7 @@ if (window.netlifyIdentity) {
   });
 }
 
-$(function() {
+$(document).ready(function() {
   var $hamburger = $(".hamburger");
   $hamburger.on("click", function(e) {
     $hamburger.toggleClass("is-active");
@@ -22,6 +22,15 @@ $(function() {
     var $form = $(this);
     $.post($form.attr("action"), $form.serialize()).then(function() {
       alert("Thank you!");
+    });
+  });
+
+  $(document).on('change','#chair-covers', function(){
+    var category = $(this).val();
+    console.log(category);
+    // $('#results').css('display','block');
+    $.get('/rentals/chair-covers/'+ category +'/index.html', function( data ) {
+        $('#results').html(data); 
     });
   });
 

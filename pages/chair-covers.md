@@ -1,16 +1,28 @@
 ---
-title: Chair Accessories
+title: Chair Covers
 date: 2020-01-01T00:00:00.000Z
-permalink: /rentals/chair-accessories/index.html
+permalink: /rentals/chair-covers/index.html
 eleventyNavigation:
-  key: Chair Accessories
+  key: Chair Covers
   parent: Rentals
-  order: 4
+  order: 3
 ---
 
-<img class="photo fullwidth" src="/static/img/ballroom bluechairs.jpg" alt="chair accessories">
+<img class="photo fullwidth" src="/static/img/chaircovers.jpg" alt="chair covers">
 
-# Chair Accessories
+# Chair Covers
 
-Chair Bands, Chair Sashes, Chair Backs
+Assorted texture and colors.
   
+<form id="chair-covers-select">
+<select id="chair-covers" name="chair-covers">
+	<option value="">Select fabric</option>
+	<option value="spandex-rouched">Spandex Rouched</option>
+	<option value="spandex-fitted">Spandex Fitted</option>
+	<option value="universal-wrap">Universal Wrap Lamoure</option>
+</select>
+</form>
+
+<p>
+<div id="results"></div>
+</p>

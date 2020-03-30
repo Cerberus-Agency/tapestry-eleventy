@@ -8,9 +8,8 @@ eleventyNavigation:
   order: 4
 ---
 
-<img class="photo fullwidth" src="/static/img/ballroom bluechairs.jpg" alt="chair accessories">
+<img class="photo fullwidth" src="/static/img/ballroombluechairs.jpg" alt="chair accessories">
 
 # Chair Accessories
 
 Chair Bands, Chair Sashes, Chair Backs
-  
