@@ -236,6 +236,15 @@ main p {
     letter-spacing: 0.125em;
 }
 
+#results li {
+    display: inline-block;
+    list-style: none;
+}
+
+#results img {
+    width: 300px;
+}
+
 /******* HOMEPAGE *******/
 
 .homepage-photos {
