@@ -5,7 +5,7 @@ layout: layouts/plain.njk
 permalink: /rentals/chair-covers/spandex-fitted/index.html
 ---
 
-## Spandex Fitted
+### Spandex Fitted
 
 <p>
 This is the Spandex Fitted page.
