@@ -7,9 +7,9 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 
 ### Bengaline Moire
 
-![Apple Green](/static/img/apple-green-bengaline-moire-tablelinen.png "Apple Green")
-![Beige](/static/img/beige-bengaline-moire-tablelinen.png "Beige")
-![Black](/static/img/black-bengaline-moire-tablelinen.png "Black")
-![Burnt Orange](/static/img/burntorange-bengaline-moire-tablelinen.png "Burnt Orange")
-![Corn Silk](/static/img/cornsilk-bengaline-moire-tablelinen.png "Corn Silk")
-![Gunmetal Gray](/static/img/gunmetal-bengaline-moire-tablelinen.png "Gunmetal Gray")
+![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")
+![Beige](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Beige")
+![Black](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg "Black")
+![Burnt Orange](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burntorange-crop.jpg "Burnt Orange")
+![Corn Silk](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg "Corn Silk")
+![Gunmetal Gray](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-gunmetal-crop.jpg "Gunmetal Gray")
