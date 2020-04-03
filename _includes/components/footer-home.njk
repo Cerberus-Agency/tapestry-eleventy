@@ -1,6 +1,6 @@
 <h2 class="testimonial"><span class="color-white">"LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA."</span></h2>
 <footer class="flex space-around align-items-center footer-home">
-	<div>
+	<div class="form-container">
 		<p class="small-heading">Contact Us</p>
 		<form
 			id="contact-form"
@@ -8,18 +8,18 @@
 			method="POST"
 			data-netlify="true"
 		>
-			<p><label>Name: </label> <input type="text" name="name" /></p>
+			<p><label>Name: </label> <input type="text" name="name" placeholder="Name" /></p>
 			<p>
 				<label>Email Address: </label>
-				<input type="email" name="email" />
+				<input type="email" name="email" placeholder="Email" />
 			</p>
 			<p>
 				<label>Phone Number: </label>
-				<input type="phone" name="phone" />
+				<input type="phone" name="phone" placeholder="Phone" />
 			</p>
 			<p>
 				<label>Questions/Comments:</label>
-				<textarea name="message"></textarea>
+				<textarea name="message" placeholder="Questions/Comments"></textarea>
 			</p>
 			<p>
 				<button type="submit"><span>Send</span></button>

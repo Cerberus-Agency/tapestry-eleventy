@@ -3,8 +3,8 @@ title: Table Accessories
 date: 2020-01-01T00:00:00.000Z
 permalink: /rentals/table-accessories/index.html
 eleventyNavigation:
-  key: Table Accessories
   parent: Rentals
+  key: Table Accessories
   order: 3
 ---
 
