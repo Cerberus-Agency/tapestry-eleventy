@@ -113,18 +113,18 @@ main > section > article > * {
 a[rel="tag"],
 a[rel="tag"]:visited {
 	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
+  	vertical-align: text-top;
+  	text-transform: uppercase;
 	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
+  	font-size: .625em;
+  	padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--white);
+  	border: 1px solid var(--white);
 	background-color: var(--white);
 	color: var(--blue);
-  border-radius: .25em;
-  text-decoration: none;
+  	border-radius: .25em;
+  	text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
@@ -140,15 +140,12 @@ a[rel="tag"]:last-child {
 
 /* Contact Form */
 
-form label {
-}
-
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
+  	width: 100%;
+  	padding: 1em;
+  	margin-bottom: 1em;
 	font-size: 1rem;
 	font-family: "Montserrat", sans-serif;
 }

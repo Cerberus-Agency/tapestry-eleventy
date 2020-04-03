@@ -127,7 +127,7 @@ header .logo img {
     color: #ffcc33;
 }
 
-.site-social, .site-logo, .site-menu {
+.footer-container, .site-logo, .site-menu, .site-social{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,7 +209,7 @@ a.tel {
     text-decoration: none;
 }
 
-.second-level {
+.second-level li a {
     color: white;
     font-size: 1em;
 }
@@ -324,7 +324,7 @@ footer {
     padding: 2em 0;
 }
 
-footer .site-social {
+footer .footer-container {
     display: block;
     text-align: center;
 }
