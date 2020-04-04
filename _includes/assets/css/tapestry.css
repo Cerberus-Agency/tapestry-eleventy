@@ -209,7 +209,7 @@ a.tel {
     text-decoration: none;
 }
 
-.second-level li a {
+#site-navigation.is-active .second-level li a {
     color: white;
     font-size: 1em;
 }
