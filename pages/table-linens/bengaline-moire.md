@@ -6,7 +6,7 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 ---
 
 ### Bengaline Moire
-<div class="grid-container" markdown="1">
+<section class="grid-container" markdown="1">
 
 ![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")
 
@@ -20,4 +20,4 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 
 ![Gunmetal Gray](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-gunmetal-crop.jpg "Gunmetal Gray")
 
-</div>
+</section>

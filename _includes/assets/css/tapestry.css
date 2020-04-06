@@ -247,12 +247,6 @@ main #results {
     margin-right: auto;
 }
 
-
-#results li {
-    display: inline-block;
-    list-style: none;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -261,9 +255,10 @@ main #results {
     grid-row-gap: 1.5em;
 }
 
-.grid-container p {
+main .grid-container p {
     line-height: 0;
     margin: 0;
+    max-width: 395px;
     padding: 0;
 }
 

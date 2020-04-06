@@ -6,6 +6,7 @@ permalink: /rentals/table-linens/crinkles/index.html
 ---
 
 ### Crinkles
+<section class="grid-container" markdown="1">
 
 ![Black](/static/img/table-linens/02-Crinkles/crushedsatin-black-crop.jpg)
 
@@ -36,3 +37,4 @@ permalink: /rentals/table-linens/crinkles/index.html
 ![Teal](/static/img/table-linens/02-Crinkles/crushedsatin-teal-crop.jpg)
 
 ![White](/static/img/table-linens/02-Crinkles/crushedsatin-white-crop.jpg)
+</section>
