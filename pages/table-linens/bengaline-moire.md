@@ -6,7 +6,7 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 ---
 
 ### Bengaline Moire
-<div class="flex" markdown="1">
+<div class="grid-container" markdown="1">
 
 ![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")
 

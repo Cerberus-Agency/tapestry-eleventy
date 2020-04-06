@@ -43,7 +43,7 @@ main {
 
 main :first-child,
 main > article :first-child {
-	margin-top: 0;
+	/*margin-top: 0;*/
 }
 
 pre {
@@ -215,6 +215,10 @@ button.share-your-vision {
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
     background-color: var(--gray); 
+}
+
+.hamburger:focus {
+	outline: 0px solid white;
 }
 
 .hamburger-box {
