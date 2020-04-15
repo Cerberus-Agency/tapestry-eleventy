@@ -218,7 +218,7 @@ a.tel {
 
 main {
     background: #ffffff url(/static/img/TAP-bg-2.svg) center top repeat-y;
-    background-size: cover;
+    background-size: contain;
     margin-left: auto;
     margin-right: auto;
     margin-top: -5em;
