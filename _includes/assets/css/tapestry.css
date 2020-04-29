@@ -132,7 +132,7 @@ header a.icon {
 }
 
 header {
-    background: url(/static/img/header-curved2.svg) center top no-repeat;
+    background: url(/static/img/header-curved2.svg) center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
