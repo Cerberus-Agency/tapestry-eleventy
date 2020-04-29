@@ -2,6 +2,7 @@
 title: Chair Accessories
 date: 2020-01-01T00:00:00.000Z
 permalink: /rentals/chair-accessories/index.html
+pageClasses: chair-accessories
 eleventyNavigation:
   key: Chair Accessories
   parent: Rentals
