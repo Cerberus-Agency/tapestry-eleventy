@@ -4,17 +4,21 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginSEO = require("eleventy-plugin-seo");
 
 module.exports = function(eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
-  // layout aliases! Say you have a bunch of existing content using
-  // layout: post. If you don’t want to rewrite all of those values, just map
-  // post to a new file like this:
-  // eleventyConfig.addLayoutAlias("post", "layouts/my_new_post_layout.njk");
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Tapestry Linens & Decor",
+    description: "Create a unique and stunning event by accessing Tapestry's distinctive tablecloths, specialty linen, centerpieces, linens, decor, and floral design rentals.",
+    url: "https://tapestrylinens.com",
+    author: "Tapestry Linens and Cerberus Agency",
+    instagram: "https://www.instagram.com/tapestrylinens/",
+    image: "/static/img/fountain-pinklight-1000.jpg"
+  });
 
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
