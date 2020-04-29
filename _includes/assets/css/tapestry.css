@@ -357,6 +357,7 @@ main .grid-container p {
     max-width: 100%;
     padding: 3em 10em 4em;
     width: 100%;
+    display: none; /* temporary */
 }
 
 .form-container {
