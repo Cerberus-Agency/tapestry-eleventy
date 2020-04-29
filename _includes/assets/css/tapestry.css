@@ -1,9 +1,43 @@
 /******* UTILITY CLASSES *******/
 
+:root {
+    --beige: rgba(255, 204, 51, .2);
+    --white: white;
+    --blue: #003366;
+    --transblue: rgba(0, 51, 102, .9);
+    --gray: #999999;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,
 body {
-    color: #003366;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+        color: #003366;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a[href],
+a[href]:visited {
+    color: var(--blue);
+}
+
+a[href]:not(:hover) {
+    text-decoration: none;
 }
 
 h1, h2 {
@@ -108,43 +142,6 @@ select {
     text-align: center;
 }
 
-:root {
-    --beige: rgba(255, 204, 51, .2);
-    --white: white;
-    --blue: #003366;
-    --transblue: rgba(0, 51, 102, .9);
-    --gray: #999999;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: auto 1fr auto;
-}
-
-p {
-    line-height: 1.5;
-}
-
-a[href],
-a[href]:visited {
-    color: var(--blue);
-}
-
-a[href]:not(:hover) {
-    text-decoration: none;
-}
-
 main {
     padding: 0 1em 2em;
 }
@@ -186,7 +183,7 @@ textarea {
     border: 1px solid var(--blue);
 }
 
-button {
+button, a.share-your-vision {
     border: 1px solid var(--blue);
     background-color: var(--blue);
     color: var(--white);
@@ -210,8 +207,11 @@ button.hamburger {
         background-color: transparent;
 }
 
-button.share-your-vision {
+a.share-your-vision {
+    display: block;
     margin: 2em auto 4em;
+    padding: 1em 2em;
+    text-decoration: none;
     width: 70%;
 }
 
@@ -249,9 +249,9 @@ header {
     z-index: 10;
 }
 
-header .logo img {
-    height: auto;
-    max-width: 60%;
+header a.logo {
+    height: 150px;
+    width: 237px;
 }
 
 #primary-menu .menu-item {
@@ -353,6 +353,15 @@ a.tel {
 #site-navigation.is-active .second-level li a {
     color: white;
     font-size: 1em;
+}
+
+
+#cls-1 {
+    transition: fill .5s
+}
+
+#cls-1.is-active {
+    fill: white;
 }
 
 /******* CONTENT *******/

@@ -14,6 +14,7 @@ $(document).ready(function() {
     $hamburger.toggleClass("is-active");
     // Do something else, like open/close menu
     $("#site-navigation").toggleClass("is-active");
+    $("#cls-1").toggleClass("is-active");
   });
 
   $("#contact-form").submit(function(e) {
