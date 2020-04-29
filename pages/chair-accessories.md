@@ -13,3 +13,19 @@ eleventyNavigation:
 # Chair Accessories
 
 Chair Bands, Chair Sashes, Chair Backs
+
+<section class="grid-container" markdown="1">
+
+![](/static/img/chair-accessories/01-chair-accessories.jpg)
+
+![](/static/img/chair-accessories/02-chair-accessories.jpg)
+
+![](/static/img/chair-accessories/03-chair-accessories.jpg)
+
+![](/static/img/chair-accessories/04-chair-accessories.jpg)
+
+![](/static/img/chair-accessories/05-chair-accessories.jpg)
+
+![](/static/img/chair-accessories/06-chair-accessories.jpg)
+
+</section>
