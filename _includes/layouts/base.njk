@@ -3,7 +3,7 @@
 
 	{% include "components/head.njk" %}
 
-	<body>
+	<body class="{% if pageType %}{{ pageType }} {{ pageType }}-{{ page.fileSlug }}{% endif %} {{ pageClasses }}">
 	{% include "components/header.njk" %}
 
 		<main>
