@@ -146,7 +146,8 @@ main {
     padding: 0 1em 2em;
 }
 
-/* Header Nav */
+/****** Header Nav ******/
+
 header nav ul {
     padding: 0;
     list-style: none;
@@ -166,7 +167,7 @@ header nav li a[data-current="current item"] {
     text-decoration: underline;
 }
 
-/* Contact Form */
+/****** Contact Form ******/
 
 input,
 textarea,
@@ -204,7 +205,7 @@ form button span {
 }
 
 button.hamburger {
-        background-color: transparent;
+    background-color: transparent;
 }
 
 a.share-your-vision {
@@ -250,8 +251,8 @@ header {
 }
 
 header a.logo {
-    height: 150px;
-    width: 237px;
+    height: 120px;
+    width: 130px;
 }
 
 #primary-menu .menu-item {
@@ -305,6 +306,7 @@ header a.logo {
 a.tel {
     color: var(--gray);
     text-decoration: none;
+    display: none; /* temporary */
 }
 
 #site-navigation {
@@ -331,7 +333,7 @@ a.tel {
     right: 0;
     bottom: 0;
     background: var(--transblue);
-    padding: 0;
+    padding: 10em 0 0 0;
     width: 100vw;
 }
 
@@ -355,9 +357,8 @@ a.tel {
     font-size: 1em;
 }
 
-
 #cls-1 {
-    transition: fill .5s
+    transition: fill .25s
 }
 
 #cls-1.is-active {
@@ -501,6 +502,11 @@ footer.footer-home .logo img {
     width: 60%;
 }
 
+footer a.logo {
+    height: 120px;
+    width: 130px;
+}
+
 .icons {
     margin: 3em auto;
     width: 96px;
@@ -537,5 +543,14 @@ footer a.tel {
 
     select {
         letter-spacing: .5em;
+    }
+
+    header a.logo {
+    height: 150px;
+    width: 237px;
+}
+
+    a.tel {
+        display: block;
     }
 }
