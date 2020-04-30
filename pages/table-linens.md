@@ -30,6 +30,18 @@ BANQUET: 90x132”, 90x156”, 108x156”
 	<option value="exquisite-payette">Exquisite Payette</option>
 	<option value="glitz-sequins">Glitz Sequins</option>
 	<option value="lame">Lam&eacute;</option>
+	<option value="lamour-prints">Lamour Prints</option>
+	<option value="lamour">Lamour</option>
+	<option value="pintucks">Pintucks</option>
+	<option value="poly-cotton-blend">Poly-Cotton Blend</option>
+	<option value="sheer-embroidery-coins">Sheer Embroidery Coins</option>
+	<option value="sheers">Sheers</option>
+	<option value="spandex">Spandex</option>
+	<option value="taffeta">Taffeta</option>
+	<option value="tinsels-aka-shag">Tinsels, a.k.a. Shag</option>
+	<option value="floral-tinsel">Floral Tinsel</option>
+	<option value="twinkle-tinsel">Twinkle Tinsel</option>
+	<option value="velvet">Velvet</option>
 </select>
 </form>
 <div id="results"></div>
