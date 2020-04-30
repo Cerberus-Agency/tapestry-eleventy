@@ -398,6 +398,10 @@ main p {
     letter-spacing: 0.125em;
 }
 
+main .grid-container p {
+    letter-spacing: normal;
+}
+
 main #results {
     width: 80%;
     margin-left: auto;
@@ -601,6 +605,7 @@ footer a.tel {
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 1.5em;
         grid-row-gap: 1.5em;
+        margin-bottom: 2em;
     }
 
 }
