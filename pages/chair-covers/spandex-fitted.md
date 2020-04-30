@@ -9,18 +9,18 @@ permalink: /rentals/chair-covers/spandex-fitted/index.html
 
 <section class="grid-container" markdown="1">
 
-![Black](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.png "Black")
+![Black](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg "Black")
 
-![Chocolate](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.png "Chocolate")
+![Chocolate](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg "Chocolate")
 
-![Ivory](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.png "Ivory")
+![Ivory](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.jpg "Ivory")
 
-![Navy](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Navy-Cover.png "Navy")
+![Navy](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Navy-Cover.jpg "Navy")
 
-![Royal](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Royal-Cover.png "Royal")
+![Royal](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Royal-Cover.jpg "Royal")
 
-![Silver Lamé](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.png "Silver Lamé")
+![Silver Lamé](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.jpg "Silver Lamé")
 
-![White](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-White-Cover.png "White")
+![White](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-White-Cover.jpg "White")
 
 </section>
