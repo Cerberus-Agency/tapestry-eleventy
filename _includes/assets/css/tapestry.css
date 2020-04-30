@@ -240,7 +240,7 @@ header a.icon {
 }
 
 header {
-    background: url(/static/img/header-curved2.svg) center center no-repeat;
+    background: url(/static/img/header-curved.svg) center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -479,6 +479,10 @@ main .grid-container p {
 
 .form-container {
     flex-basis: 50%;
+}
+
+form.select-a-fabric {
+    margin-bottom: 2em;
 }
 
 #contact-form label {
