@@ -21,7 +21,7 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 <div class="grid homepage-photos">
     <div class="grid left">
   	<a href="/rentals/table-linens"><img class="photo-1" src="static/img/courtyard-whitechairs-square-1000.jpg" alt="courtyard with chairs"></a>
-    <a href="/rentals/table-accessories"><img class="photo-3" src="static/img/table-accessories-1000.jpg" alt="table accessories"></a>a>
+    <a href="/rentals/table-accessories"><img class="photo-3" src="static/img/table-accessories-1000.jpg" alt="table accessories"></a>
   	
   </div>
   <div class="grid right">
