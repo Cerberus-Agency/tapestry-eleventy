@@ -42,7 +42,7 @@ a[href]:not(:hover) {
 }
 
 h1, h2 {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: .5em;
     margin: 2em 0;
@@ -202,7 +202,7 @@ button, a.share-your-vision {
 form button {
     border-radius: 4px;
     margin: 0 auto;
-    width: 60%;
+    /*width: 60%;*/
 }
 
 form button span {
@@ -338,12 +338,12 @@ a.tel {
     right: 0;
     bottom: 0;
     background: var(--transblue);
-    padding: 10em 0 0 0;
+    padding: 7em 0 0 0;
     width: 100vw;
 }
 
 #site-navigation.is-active li {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 #site-navigation.is-active a {
@@ -553,6 +553,10 @@ footer a.tel {
 
     .desktop.flex {
         display: flex;
+    }
+
+    h1, h2 {
+        font-size: 26px;
     }
 
     header img.logo {
