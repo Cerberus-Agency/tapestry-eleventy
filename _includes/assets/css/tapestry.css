@@ -143,7 +143,7 @@ select {
 }
 
 main {
-    padding: 0 1em 2em;
+    padding: 0 1em;
 }
 
 /****** Header Nav ******/
@@ -489,7 +489,7 @@ main .grid-container p {
 
 footer {
     background-color: #ffffff;
-    margin-top: 4em;
+    border-top: 1px solid var(--blue);
     padding: 2em 0;
 }
 
@@ -498,13 +498,9 @@ footer .footer-container {
     text-align: center;
 }
 
-footer.footer-home .logo img {
-    width: 60%;
-}
-
-footer a.logo {
-    height: 120px;
-    width: 130px;
+footer a.logo svg {
+    height: 240px;
+    width: 260px;
 }
 
 .icons {
