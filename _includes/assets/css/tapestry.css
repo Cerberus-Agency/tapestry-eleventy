@@ -231,7 +231,8 @@ a.icon {
 }
 
 header a.icon {
-    margin-left: 1em;
+    margin-left: 0;
+    margin-right: .2em;
     max-height: 30px;
     max-width: 30px;
 }
@@ -256,8 +257,8 @@ header {
 }
 
 header a.logo {
-    height: 120px;
-    width: 130px;
+    height: 130px;
+    width: 160px;
 }
 
 #primary-menu .menu-item {
@@ -573,9 +574,14 @@ footer a.tel {
     }
 
     header a.logo {
-    height: 150px;
-    width: 237px;
-}
+        height: 150px;
+        width: 237px;
+    }
+
+    header a.icon {
+        margin-left: 1em;
+        margin-right: 0;
+    }
 
     a.tel {
         display: block;
