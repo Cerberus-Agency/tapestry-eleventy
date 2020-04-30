@@ -2,6 +2,7 @@
 
 :root {
     --beige: rgba(255, 204, 51, .2);
+    --gold: rgba(255, 204, 51, 1);
     --white: white;
     --blue: #003366;
     --transblue: rgba(0, 51, 102, .9);
@@ -200,8 +201,8 @@ button, a.share-your-vision {
 
 form button {
     border-radius: 4px;
-    float: right;
-    width: auto;
+    margin: 0 auto;
+    width: 100%;
 }
 
 form button span {
@@ -483,7 +484,9 @@ main .grid-container p {
 }
 
 .form-container {
+    border-bottom: 1px dotted var(--gold);
     flex-basis: 50%;
+    margin-bottom: 2em;
     padding: 1em 2em;
 }
 
@@ -508,9 +511,12 @@ footer .footer-container {
     text-align: center;
 }
 
-footer a.logo svg {
-    height: 240px;
-    width: 260px;
+footer a.logo svg, footer a.logo img {
+    width: 200px;
+}
+
+#home-footer-contact {
+    padding: 0 0 2em 0;
 }
 
 .icons {
@@ -534,6 +540,9 @@ footer a.tel {
     font-size: .8em;
     font-weight: 200;
 }
+
+/******* PAGES *******/
+
 .chair-accessories main img {
     width: 100%;
 }

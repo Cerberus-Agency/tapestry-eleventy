@@ -31,7 +31,7 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 </div>
 
 <div id="vision" class="modal">
- <form name="contact" method="POST" netlify>
+ <form id="home-footer-contact" name="contact" method="POST" netlify>
   <label for="name">Name</label>
   <input type="text" name="name" id="name" autocomplete="name" placeholder="Your name" title="Please enter your name" required>
   <label for="email">Email</label>
