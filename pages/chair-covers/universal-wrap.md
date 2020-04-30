@@ -7,6 +7,8 @@ permalink: /rentals/chair-covers/universal-wrap/index.html
 
 ### Universal Wrap Lamoure
 
-<p>
-this is the Universal Wrap Lamoure page.
-</p>
+![Gold](/static/img/chair-covers/03-Universal-Wrap-Lamoure/Universal-Gold-Satin-Chair-Wrap.jpg "Gold")
+
+![Ivory](/static/img/chair-covers/03-Universal-Wrap-Lamoure/Universal-Ivory-Satin-Chair-Wrap.jpg "Ivory")
+
+![White](/static/img/chair-covers/03-Universal-Wrap-Lamoure/Universal-White-Satin-Chair-Wrap.jpg "White")
