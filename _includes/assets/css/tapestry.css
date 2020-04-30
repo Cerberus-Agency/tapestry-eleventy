@@ -121,7 +121,7 @@ select {
     display: block; 
 }
 
-footer .flex {
+footer .desktop.flex {
     display: block;
 }
 
@@ -202,7 +202,7 @@ button, a.share-your-vision {
 form button {
     border-radius: 4px;
     margin: 0 auto;
-    width: 100%;
+    width: 60%;
 }
 
 form button span {
@@ -216,9 +216,9 @@ button.hamburger {
 a.share-your-vision {
     display: block;
     margin: 2em auto 4em;
-    padding: 1em 2em;
+    padding: 1em;
     text-decoration: none;
-    width: 70%;
+    width: 100%;
 }
 
 /******* NAVIGATION *******/
@@ -551,7 +551,7 @@ footer a.tel {
 
 @media screen and (min-width:768px) {
 
-    footer .flex {
+    footer .desktop.flex {
         display: flex;
     }
 
@@ -577,6 +577,14 @@ footer a.tel {
         display: block;
     }
 
+    a.share-your-vision {
+        display: block;
+        margin: 2em auto 4em;
+        padding: 1em 2em;
+        text-decoration: none;
+        width: 70%;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -584,4 +592,5 @@ footer a.tel {
         grid-column-gap: 1.5em;
         grid-row-gap: 1.5em;
     }
+
 }
