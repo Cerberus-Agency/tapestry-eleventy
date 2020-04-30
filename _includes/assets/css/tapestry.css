@@ -118,10 +118,10 @@ select {
 }
 
 .flex {
-    display: block; 
+    display: flex; 
 }
 
-footer .desktop.flex {
+.desktop.flex {
     display: block;
 }
 
@@ -551,7 +551,7 @@ footer a.tel {
 
 @media screen and (min-width:768px) {
 
-    footer .desktop.flex {
+    .desktop.flex {
         display: flex;
     }
 
