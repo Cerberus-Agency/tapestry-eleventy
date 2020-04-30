@@ -7,6 +7,20 @@ permalink: /rentals/chair-covers/spandex-fitted/index.html
 
 ### Spandex Fitted
 
-<p>
-This is the Spandex Fitted page.
-</p>
+<section class="grid-container" markdown="1">
+
+![Black](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Black-Cover.png "Black")
+
+![Chocolate](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Black-Cover.png "Chocolate")
+
+![Ivory](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.png "Ivory")
+
+![Navy](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Navy-Cover.png "Navy")
+
+![Royal](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Royal-Cover.png "Royal")
+
+![Silver Lamé](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.png "Silver Lamé")
+
+![White](/static/img/chair-covers/01-Spandex-Fitted/Spandex-Fitted-White-Cover.png "White")
+
+</section>
