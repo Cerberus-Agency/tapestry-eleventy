@@ -20,13 +20,13 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 
 <div class="grid homepage-photos">
     <div class="grid left">
-  	<img class="photo-1" src="static/img/courtyard-whitechairs-square-1000.jpg" alt="courtyard with chairs">
-    <img class="photo-3" src="static/img/table-accessories-1000.jpg" alt="table accessories">
+  	<a href="/rentals/table-linens"><img class="photo-1" src="static/img/courtyard-whitechairs-square-1000.jpg" alt="courtyard with chairs"></a>
+    <a href="/rentals/table-accessories"><img class="photo-3" src="static/img/table-accessories-1000.jpg" alt="table accessories"></a>a>
   	
   </div>
   <div class="grid right">
-    <img class="photo-2" src="static/img/services-bluetree-1000.jpg" alt="decor">
-  	<img class="photo-4" src="static/img/reyka-vodka-hut-square-1000.jpg" alt="Reyka Vodka Hut">
+    <a href="/services"><img class="photo-2" src="static/img/services-bluetree-1000.jpg" alt="decor"></a>
+  	<a href="/events"><img class="photo-4" src="static/img/reyka-vodka-hut-square-1000.jpg" alt="Reyka Vodka Hut"></a>
   </div>
 </div>
 
