@@ -374,7 +374,7 @@ a.tel {
 /******* CONTENT *******/
 
 main {
-    background: #ffffff url(/static/img/TAP-gray-bg-updated.svg) center top no-repeat;
+    background: #ffffff url(/static/img/TAP-gray-bg-updated.svg) center top repeat-y;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
