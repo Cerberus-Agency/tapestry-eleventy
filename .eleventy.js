@@ -17,7 +17,11 @@ module.exports = function(eleventyConfig) {
     url: "https://tapestrylinens.com",
     author: "Tapestry Linens and Cerberus Agency",
     instagram: "https://www.instagram.com/tapestrylinens/",
-    image: "/static/img/fountain-pinklight-1000.jpg"
+    image: "/static/img/fountain-pinklight-1000.jpg",
+    options: {
+      titleDivider: "|",
+      imageWithBaseUrl: true
+    }
   });
 
   // Merge data instead of overriding
