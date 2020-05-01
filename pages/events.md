@@ -17,6 +17,8 @@ Spandex Tornadoes
 
 Custom Furniture – antique chairs, bars, theatrical scenery
 
+<section class="grid-container" markdown="1">
+
 ![Custom Events and Decor](/static/img/events-decor/01-pipedrape.jpg)
 
 ![Custom Events and Decor](/static/img/events-decor/02-spandex.jpg)
@@ -46,3 +48,5 @@ Custom Furniture – antique chairs, bars, theatrical scenery
 ![Custom Events and Decor](/static/img/events-decor/14-custom.jpg)
   
 ![Custom Events and Decor](/static/img/events-decor/15-custom.jpg)
+
+</section>
