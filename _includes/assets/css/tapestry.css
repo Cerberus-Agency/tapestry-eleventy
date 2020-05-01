@@ -462,20 +462,66 @@ main .grid-container p {
     overflow: hidden;
 }
 
-.photo-1 {
+a.photo-overlay {
+    display: block;
+    position: relative;
+}
+
+a.photo-overlay img {
+    transition: opacity .5s;
+}
+
+a.photo-overlay:hover img {
+    opacity: .2;
+}
+
+a.photo-overlay:hover {
+    background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
+    color: var(--blue);
+}
+
+a.photo-overlay:hover:before {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    letter-spacing: .125em;
+    width: 100%;
+    height: 100%;
+}
+
+a.photo-1 {
     grid-area: top;
 }
 
-.photo-2 {
+a.photo-overlay.photo-1:hover:before {
+    content: 'TABLE LINENS';
+}
+
+a.photo-2 {
     grid-area: top;
 }
 
-.photo-3 {
+a.photo-overlay.photo-2:hover:before {
+    content: 'SERVICES';
+}
+
+a.photo-3 {
     grid-area: bottom;
 }
 
-.photo-4 {
+a.photo-overlay.photo-3:hover:before {
+    content: 'TABLE ACCESSORIES';
+}
+
+a.photo-4 {
     grid-area: bottom;
+}
+
+a.photo-overlay.photo-4:hover:before {
+    content: 'EVENTS';
 }
 
 .testimonial {
