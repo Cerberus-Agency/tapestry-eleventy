@@ -28,3 +28,7 @@ For the past 22 years, Konstantinos has led Kappa Designs, providing creative cu
 ### Jayne Saia
 
 With more than 30 years' experience in sales and production management, and décor design, Jayne has worked to design and produce special events for upper echelon corporate partners that include the Zurich Classic, Tales of the Cocktail, the NCAA Sugar Bowl, NBA's All-Star Weekend, and the NFL Super Bowl. Working for more than 20 years alongside noted designers Konstantine Kritikos and Kevin Tran, Ms. Sala's body of work also includes the production of events at numerous conventions, Mardi Gras balls, and weddings. Prior to moving back to her hometown of New Orleans in '97, Jayne managed several special event rental stores where she gained hands-on experience designing and executing special events.
+
+### James Garcia
+
+ James Garcia With a diverse and varied background in decor design that spans more than 30 years, James has honed his skills as a designer in large and small retail venues across the city. Mr. Garcia's passion for design is reflected in the scenic environments that he creates—each ideally crafted to set the perfect mood. His work has been featured across the nation in tradeshows hosted by the Junior League, and his seasonal decorations display his true artistry. Notable corporate clients have included Pier One Imports as well as local retailers such as The Crab Bag, Jeff's Haberdashery, Fischer-Gambino, and Orient Expressed.
