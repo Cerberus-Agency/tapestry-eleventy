@@ -426,7 +426,7 @@ main .grid-container p {
     padding: 0;
 }
 
-#results img {
+.grid-container img {
     height: auto;
     width: 100%;
 }
