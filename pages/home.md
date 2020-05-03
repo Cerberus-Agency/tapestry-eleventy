@@ -20,18 +20,18 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 
 <div class="grid homepage-photos">
     <div class="grid left">
-  	<img class="photo-1" src="static/img/courtyard-whitechairs-square-1000.jpg" alt="courtyard with chairs">
-    <img class="photo-3" src="static/img/table-accessories-1000.jpg" alt="table accessories">
+  	<a class="photo-overlay photo-1" href="/rentals/table-linens"><img src="static/img/courtyard-whitechairs-square-1000.jpg" alt="courtyard with chairs"></a>
+    <a class="photo-overlay photo-3" href="/rentals/table-accessories"><img src="static/img/table-accessories-1000.jpg" alt="table accessories"></a>
   	
   </div>
   <div class="grid right">
-    <img class="photo-2" src="static/img/services-bluetree-1000.jpg" alt="decor">
-  	<img class="photo-4" src="static/img/reyka-vodka-hut-square-1000.jpg" alt="Reyka Vodka Hut">
+    <a class="photo-overlay photo-2" href="/services"><img src="static/img/services-bluetree-1000.jpg" alt="decor"></a>
+  	<a class="photo-overlay photo-4" href="/events"><img src="static/img/reyka-vodka-hut-square-1000.jpg" alt="Reyka Vodka Hut"></a>
   </div>
 </div>
 
 <div id="vision" class="modal">
- <form name="contact" method="POST" netlify>
+ <form id="home-footer-contact" name="contact" method="POST" netlify>
   <label for="name">Name</label>
   <input type="text" name="name" id="name" autocomplete="name" placeholder="Your name" title="Please enter your name" required>
   <label for="email">Email</label>

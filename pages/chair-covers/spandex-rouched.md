@@ -7,6 +7,20 @@ permalink: /rentals/chair-covers/spandex-rouched/index.html
 
 ### Spandex Rouched
 
-<p>
-this is the Spandex Rouched page.
-</p>
+<section class="grid-container" markdown="1">
+
+![Black](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Black-Cover.jpg "Black")
+
+![Ivory](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Ivory-Cover.jpg "Ivory")
+
+![Navy](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Navy-Cover.jpg "Navy")
+
+![Plum](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Plum-Cover.jpg "Plum")
+
+![Red](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Red-Cover.jpg "Red")
+
+![Silver](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Silver-Cover.jpg "Silver")
+
+![White](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-White-Cover.jpg "White")
+
+</section>

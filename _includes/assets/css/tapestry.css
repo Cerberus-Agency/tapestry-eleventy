@@ -2,6 +2,7 @@
 
 :root {
     --beige: rgba(255, 204, 51, .2);
+    --gold: rgba(255, 204, 51, 1);
     --white: white;
     --blue: #003366;
     --transblue: rgba(0, 51, 102, .9);
@@ -41,7 +42,7 @@ a[href]:not(:hover) {
 }
 
 h1, h2 {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: .5em;
     margin: 2em 0;
@@ -90,7 +91,7 @@ select {
     font: 200 20px "Montserrat", sans-serif;
     height: 3em;
     letter-spacing: .2em;
-    margin: 0em;
+    margin: 0 0 2em 0;
     padding: .75em;
     word-spacing: normal;
     text-transform: uppercase;
@@ -117,7 +118,11 @@ select {
 }
 
 .flex {
-    display: flex;
+    display: flex; 
+}
+
+.desktop.flex {
+    display: block;
 }
 
 .space-around {
@@ -143,10 +148,11 @@ select {
 }
 
 main {
-    padding: 0 1em 2em;
+    padding: 0 1em;
 }
 
-/* Header Nav */
+/****** Header Nav ******/
+
 header nav ul {
     padding: 0;
     list-style: none;
@@ -166,7 +172,7 @@ header nav li a[data-current="current item"] {
     text-decoration: underline;
 }
 
-/* Contact Form */
+/****** Contact Form ******/
 
 input,
 textarea,
@@ -195,8 +201,8 @@ button, a.share-your-vision {
 
 form button {
     border-radius: 4px;
-    float: right;
-    width: auto;
+    margin: 0 auto;
+    /*width: 60%;*/
 }
 
 form button span {
@@ -204,15 +210,15 @@ form button span {
 }
 
 button.hamburger {
-        background-color: transparent;
+    background-color: transparent;
 }
 
 a.share-your-vision {
     display: block;
     margin: 2em auto 4em;
-    padding: 1em 2em;
+    padding: 1em;
     text-decoration: none;
-    width: 70%;
+    width: 100%;
 }
 
 /******* NAVIGATION *******/
@@ -225,7 +231,8 @@ a.icon {
 }
 
 header a.icon {
-    margin-left: 1em;
+    margin-left: 0;
+    margin-right: .2em;
     max-height: 30px;
     max-width: 30px;
 }
@@ -239,7 +246,7 @@ header a.icon {
 }
 
 header {
-    background: url(/static/img/header-curved2.svg) center center no-repeat;
+    background: url(/static/img/header-curved.svg) center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -250,8 +257,8 @@ header {
 }
 
 header a.logo {
-    height: 150px;
-    width: 237px;
+    height: 130px;
+    width: 160px;
 }
 
 #primary-menu .menu-item {
@@ -305,6 +312,7 @@ header a.logo {
 a.tel {
     color: var(--gray);
     text-decoration: none;
+    display: none; /* temporary */
 }
 
 #site-navigation {
@@ -331,12 +339,12 @@ a.tel {
     right: 0;
     bottom: 0;
     background: var(--transblue);
-    padding: 0;
+    padding: 7em 0 0 0;
     width: 100vw;
 }
 
 #site-navigation.is-active li {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 #site-navigation.is-active a {
@@ -355,9 +363,8 @@ a.tel {
     font-size: 1em;
 }
 
-
 #cls-1 {
-    transition: fill .5s
+    transition: fill .25s
 }
 
 #cls-1.is-active {
@@ -367,8 +374,8 @@ a.tel {
 /******* CONTENT *******/
 
 main {
-    background: #ffffff url(/static/img/TAP-bg-2.svg) center top repeat-y;
-    background-size: contain;
+    background: #ffffff url(/static/img/TAP-gray-bg-updated.svg) center top repeat-y;
+    background-size: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -5em;
@@ -391,18 +398,25 @@ main p {
     letter-spacing: 0.125em;
 }
 
+main .grid-container p {
+    letter-spacing: normal;
+}
+
 main #results {
-    width: 80%;
+/*    width: 80%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 1.5em;
-    grid-row-gap: 1.5em;
+    grid-column-gap:.5em;
+    grid-row-gap: .5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main .grid-container p {
@@ -412,7 +426,7 @@ main .grid-container p {
     padding: 0;
 }
 
-#results img {
+.grid-container img {
     height: auto;
     width: 100%;
 }
@@ -426,6 +440,7 @@ main .grid-container p {
     grid-column-gap: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2em;
     max-width: 1200px;
     overflow: hidden;
 }
@@ -450,20 +465,66 @@ main .grid-container p {
     overflow: hidden;
 }
 
-.photo-1 {
+a.photo-overlay {
+    display: block;
+    position: relative;
+}
+
+a.photo-overlay img {
+    transition: opacity .5s;
+}
+
+a.photo-overlay:hover img {
+    opacity: .2;
+}
+
+a.photo-overlay:hover {
+    background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
+    color: var(--blue);
+}
+
+a.photo-overlay:hover:before {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    letter-spacing: .125em;
+    width: 100%;
+    height: 100%;
+}
+
+a.photo-1 {
     grid-area: top;
 }
 
-.photo-2 {
+a.photo-overlay.photo-1:hover:before {
+    content: 'TABLE LINENS';
+}
+
+a.photo-2 {
     grid-area: top;
 }
 
-.photo-3 {
+a.photo-overlay.photo-2:hover:before {
+    content: 'SERVICES';
+}
+
+a.photo-3 {
     grid-area: bottom;
 }
 
-.photo-4 {
+a.photo-overlay.photo-3:hover:before {
+    content: 'TABLE ACCESSORIES';
+}
+
+a.photo-4 {
     grid-area: bottom;
+}
+
+a.photo-overlay.photo-4:hover:before {
+    content: 'EVENTS';
 }
 
 .testimonial {
@@ -477,7 +538,14 @@ main .grid-container p {
 }
 
 .form-container {
+    border-bottom: 1px dotted var(--gold);
     flex-basis: 50%;
+    margin-bottom: 2em;
+    padding: 1em 2em;
+}
+
+form.select-a-fabric {
+    margin-bottom: 2em;
 }
 
 #contact-form label {
@@ -488,7 +556,7 @@ main .grid-container p {
 
 footer {
     background-color: #ffffff;
-    margin-top: 4em;
+    border-top: 1px solid var(--blue);
     padding: 2em 0;
 }
 
@@ -497,8 +565,12 @@ footer .footer-container {
     text-align: center;
 }
 
-footer.footer-home .logo img {
-    width: 60%;
+footer a.logo svg, footer a.logo img {
+    width: 200px;
+}
+
+#home-footer-contact {
+    padding: 0 0 2em 0;
 }
 
 .icons {
@@ -523,9 +595,24 @@ footer a.tel {
     font-weight: 200;
 }
 
+/******* PAGES *******/
+
+.chair-accessories main img {
+    width: 100%;
+}
+
 /******* MEDIA QUERIES: DESKTOP *******/
 
 @media screen and (min-width:768px) {
+
+    .desktop.flex {
+        display: flex;
+    }
+
+    h1, h2 {
+        font-size: 26px;
+    }
+
     header img.logo {
         height: auto;
         max-width: 80%;
@@ -538,4 +625,36 @@ footer a.tel {
     select {
         letter-spacing: .5em;
     }
+
+    header a.logo {
+        height: 150px;
+        width: 237px;
+    }
+
+    header a.icon {
+        margin-left: 1em;
+        margin-right: 0;
+    }
+
+    a.tel {
+        display: block;
+    }
+
+    a.share-your-vision {
+        display: block;
+        margin: 2em auto 4em;
+        padding: 1em 2em;
+        text-decoration: none;
+        width: 70%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 1.5em;
+        grid-row-gap: 1.5em;
+        margin-bottom: 2em;
+    }
+
 }

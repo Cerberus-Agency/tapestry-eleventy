@@ -8,8 +8,8 @@ permalink: /rentals/table-linens/exquisite-payette/index.html
 ### Exquisite Payette
 <section class="grid-container" markdown="1">
 
-![Antique Gold Exquisiste Payette](/static/img/table-linens/05-Exquisite-Payette/payette-antiquegold-crop.jpg "Antique Gold Exquisite Payette")
+![Antique Gold Exquisite Payette](/static/img/table-linens/05-Exquisite-Payette/payette-antiquegold-crop.jpg "Antique Gold Exquisite Payette")
 
-![Rose Gold Exquisiste Payette](/static/img/table-linens/05-Exquisite-Payette/payette-rosegold-crop.jpg "Rose Gold Exquisite Payette")
+![Rose Gold Exquisite Payette](/static/img/table-linens/05-Exquisite-Payette/payette-rosegold-crop.jpg "Rose Gold Exquisite Payette")
 
 </section>
