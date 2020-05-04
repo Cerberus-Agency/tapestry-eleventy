@@ -5,6 +5,7 @@
   {% set css %}
     {% include "assets/css/hamburgers.css" %}
     {% include "assets/css/tapestry.css" %}
+    {% include "assets/css/magnific-popup.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
   {% set js %}
     {% include "assets/js/inline.js" %}
+    {% include "assets/js/magnific.min.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
-
 </head>

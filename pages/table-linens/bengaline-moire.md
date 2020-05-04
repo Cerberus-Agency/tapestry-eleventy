@@ -8,16 +8,16 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 ### Bengaline Moire
 <section class="grid-container" markdown="1">
 
-![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")
+[![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")
 
-![Beige](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Beige")
+[![Beige](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Beige")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Beige")
 
-![Black](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg "Black")
+[![Black](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg "Black")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg "Black")
 
-![Burnt Orange](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burntorange-crop.jpg "Burnt Orange")
+[![Burnt Orange](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burntorange-crop.jpg "Burnt Orange")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burntorange-crop.jpg "Burnt Orange")
 
-![Corn Silk](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg "Corn Silk")
+[![Corn Silk](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg "Corn Silk")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg "Corn silk")
 
-![Gunmetal Gray](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-gunmetal-crop.jpg "Gunmetal Gray")
+[![Gunmetal Gray](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-gunmetal-crop.jpg "Gunmetal Gray")](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-gunmetal-crop.jpg "Gunmetal Gray")
 
 </section>
