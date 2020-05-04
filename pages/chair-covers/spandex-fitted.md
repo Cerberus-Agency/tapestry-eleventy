@@ -9,18 +9,18 @@ permalink: /rentals/chair-covers/spandex-fitted/index.html
 
 <section class="grid-container" markdown="1">
 
-![Black](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg "Black")
+<a title="Black" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg">![]( /static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg)</a>
 
-![Chocolate](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg "Chocolate")
+<a title="Chocolate" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Black-Cover.jpg)</a>
 
-![Ivory](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.jpg "Ivory")
+<a title="Ivory" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Ivory-Cover.jpg)</a>
 
-![Navy](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Navy-Cover.jpg "Navy")
+<a title="Navy" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Navy-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Navy-Cover.jpg)</a>
 
-![Royal](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Royal-Cover.jpg "Royal")
+<a title="Royal" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Royal-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Royal-Cover.jpg)</a>
 
-![Silver Lamé](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.jpg "Silver Lamé")
+<a title="Silver Lamé" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-Silver-Lame-Cover.jpg)</a>
 
-![White](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-White-Cover.jpg "White")
+<a title="White" class="photo-overlay" href="/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-White-Cover.jpg">![](/static/img/chair-covers/02-Spandex-Fitted/Spandex-Fitted-White-Cover.jpg)</a>
 
 </section>
