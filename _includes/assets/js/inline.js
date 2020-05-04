@@ -68,7 +68,7 @@ $(document).ready(function() {
             $('.grid-container').each(function() {
                 $(this).magnificPopup({
                     type: 'image',
-                    delegate: 'p a.photo-overlay',
+                    delegate: 'a',
                     gallery: {
                         enabled: true,
                         preload: [0, 1],

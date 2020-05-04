@@ -8,10 +8,10 @@ permalink: /rentals/table-linens/bichon-satin/index.html
 ### Bichon Satin
 <section class="grid-container" markdown="1">
 
-![Charcoal Bichon Satin](/static/img/table-linens/03-Bichon-Satin/Charcoal_Bichon.jpg "Charcoal Bichon")
+<a title="Charcoal" class="photo-overlay" href="/static/img/table-linens/03-Bichon-Satin/Charcoal_Bichon.jpg">![Charcoal](/static/img/table-linens/03-Bichon-Satin/Charcoal_Bichon.jpg "Charcoal")</a>
 
-![Cinnamon Bichon Satin](/static/img/table-linens/03-Bichon-Satin/Cinnamon_Bichon.jpg "Cinnamon Bichon")
+<a title="Cinnamon" class="photo-overlay" href="/static/img/table-linens/03-Bichon-Satin/Cinnamon_Bichon.jpg">![Cinnamon](/static/img/table-linens/03-Bichon-Satin/Cinnamon_Bichon.jpg "Cinnamon")</a>
 
-![Dark Lime Bichon Satin](/static/img/table-linens/03-Bichon-Satin/Dark_Lime_Bichon.jpg "Dark Lime Bichon")
+<a title="Dark Lime" class="photo-overlay" href="/static/img/table-linens/03-Bichon-Satin/Dark_Lime_Bichon.jpg">![Dark Lime](/static/img/table-linens/03-Bichon-Satin/Dark_Lime_Bichon.jpg "Dark Lime")</a>
 
 </section>
