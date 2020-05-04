@@ -9,18 +9,18 @@ permalink: /rentals/chair-covers/spandex-rouched/index.html
 
 <section class="grid-container" markdown="1">
 
-![Black](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Black-Cover.jpg "Black")
+<a title="Black" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Black-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Black-Cover.jpg)</a>
 
-![Ivory](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Ivory-Cover.jpg "Ivory")
+<a title="Ivory" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Ivory-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Ivory-Cover.jpg)</a>
 
-![Navy](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Navy-Cover.jpg "Navy")
+<a title="Navy" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Navy-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Navy-Cover.jpg)</a>
 
-![Plum](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Plum-Cover.jpg "Plum")
+<a title="Plum" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Plum-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Plum-Cover.jpg)</a>
 
-![Red](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Red-Cover.jpg "Red")
+<a title="Red" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Red-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Red-Cover.jpg)</a>
 
-![Silver](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Silver-Cover.jpg "Silver")
+<a title="Silver" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Silver-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-Silver-Cover.jpg)</a>
 
-![White](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-White-Cover.jpg "White")
+<a title="White" class="photo-overlay" href="/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-White-Cover.jpg">![](/static/img/chair-covers/01-Spandex-Rouched/Spandex-Rouched-White-Cover.jpg)</a>
 
 </section>
