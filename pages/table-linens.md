@@ -28,12 +28,12 @@ BANQUET: 90x132”, 90x156”, 108x156”
 	<option value="bichon-satin">Bichon Satin</option>
 	<option value="damasks">Damasks</option>
 	<option value="exquisite-payette">Exquisite Payette</option>
-	<option value="glitz-sequins">Glitz Sequins</option>
+	<option value="sequins">Glitz Sequins</option>
 	<option value="lame">Lam&eacute;</option>
 	<option value="lamour-prints">Lamour Prints</option>
 	<option value="lamour">Lamour</option>
 	<option value="pintucks">Pintucks</option>
-	<option value="poly-cotton-blend">Poly-Cotton Blend</option>
+	<option value="poly-cotton">Poly-Cotton Blend</option>
 	<option value="sheer-embroidery-coins">Sheer Embroidery Coins</option>
 	<option value="sheers">Sheers</option>
 	<option value="spandex">Spandex</option>

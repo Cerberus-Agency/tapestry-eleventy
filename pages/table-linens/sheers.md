@@ -3,12 +3,15 @@ title: Sheers
 date: 2020-04-15T00:00:00.000Z
 layout: layouts/plain.njk
 permalink: /rentals/table-linens/sheers/index.html
+
 ---
 
 ### Sheers
 
 <section class="grid-container" markdown="1">
 
-coming soon...
+<a title="filigree gold" class="photo-overlay" href="/static/img/table-linens/13-Sheers/Sheer-Filigree_Gold.jpg">![](/static/img/table-linens/13-Sheers/Sheer-Filigree_Gold.jpg)</a>
+
+<a title="silver pixie dust" class="photo-overlay" href="/static/img/table-linens/13-Sheers/Sheer-White_with_Silver_Pixie_Dust.jpg">![](/static/img/table-linens/13-Sheers/Sheer-White_with_Silver_Pixie_Dust.jpg)</a>
 
 </section>
