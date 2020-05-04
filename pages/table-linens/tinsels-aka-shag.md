@@ -10,18 +10,16 @@ permalink: /rentals/table-linens/tinsels-aka-shag/index.html
 
 <section class="grid-container" markdown="1">
 
-<a title="apple green" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/APPLE-GREEN.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/APPLE-GREEN.jpg)</a>
+<a title="black" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Black-Metallic-Shag.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Black-Metallic-Shag.jpg)</a>
 
-<a title="black and white" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/BLACK-AND-WHITE.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/BLACK-AND-WHITE.jpg)</a>
+<a title="emerald" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Emerald.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Emerald.jpg)</a>
 
-<a title="blizzard" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/BLIZZARD.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/BLIZZARD.jpg)</a>
+<a title="gold" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Gold.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Gold.jpg)</a>
 
-<a title="celery" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/CELERY.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/CELERY.jpg)</a>
+<a title="mardi gras" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Mardi-Gras.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Mardi-Gras.jpg)</a>
 
-<a title="cornflower and chocolate" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg)</a>
+<a title="purple" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Purple.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Purple.jpg)</a>
 
-<a title="onyx" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/ONYX.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/ONYX.jpg)</a>
-
-<a title="sunset" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/SUNSET.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/SUNSET.jpg)</a>
+<a title="red" class="photo-overlay" href="/static/img/table-linens/16-Tinsels-aka-Shag/Red-Metallic-Shag.jpg">![](/static/img/table-linens/16-Tinsels-aka-Shag/Red-Metallic-Shag.jpg)</a>
 
 </section>
