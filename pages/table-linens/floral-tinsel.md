@@ -14,7 +14,7 @@ permalink: /rentals/table-linens/floral-tinsel/index.html
 
 <a title="celery" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/CELERY.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/CELERY.jpg)</a>
 
-<a title="cornflower and chocolate" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg)</a>
+<a title="cornflower" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/CORNFLOWER-AND-CHOCOLATE-crop.jpg)</a>
 
 <a title="onyx" class="photo-overlay" href="/static/img/table-linens/16.2-Floral-Tinsel/ONYX.jpg">![](/static/img/table-linens/16.2-Floral-Tinsel/ONYX.jpg)</a>
 
