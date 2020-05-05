@@ -32,7 +32,8 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 
 <div id="vision" class="modal">
 <form name="contact" method="POST" netlify>
-  <img src="/static/img/section-header-decoration-desktop-003366.png" style="width: 100%;">
+  <img src="/static/img/TAP-popup-detail.svg" style="width: 100%;">
+  <img src="/static/img/TAP-popup-rule.svg" style="width: 100%;">
   <h3>Share your vision with us.</h3>
   <a class="phone" href="tel:5049155719">504-915-5719</a>
   <label for="name">Name</label>
