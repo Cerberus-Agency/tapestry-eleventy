@@ -46,6 +46,7 @@ h1, h2 {
     font-weight: 500;
     letter-spacing: .5em;
     margin: 2em 0;
+    padding-left: .5em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -69,6 +70,7 @@ h3 {
     font-weight: 400;
     letter-spacing: .5em;
     margin-top: 2em;
+    padding-left: .5em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -233,6 +235,7 @@ a.share-your-vision {
     font-size: .9em;
     font-weight: 700;
     letter-spacing: .25em;
+    padding-left: .25em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -242,6 +245,7 @@ a.share-your-vision {
     font-weight: 700;
     letter-spacing: .125em;
     margin-bottom: 1em;
+    padding-left: .125em;
     text-align: center; 
 }
 
@@ -520,6 +524,7 @@ a.photo-overlay:hover:before {
     left: 0;
     font-size: 2em;
     letter-spacing: .125em;
+    padding-left: .125em;
     line-height: 1;
     text-align: center;
     width: 100%;
