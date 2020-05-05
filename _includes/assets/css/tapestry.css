@@ -221,6 +221,39 @@ a.share-your-vision {
     width: 100%;
 }
 
+#vision {
+    padding: 1em;
+}
+
+#vision label {
+    display: none;
+}
+
+#vision h3 {
+    font-size: .9em;
+    font-weight: 700;
+    letter-spacing: .25em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#vision a.phone { 
+    display: block;
+    font-weight: 700;
+    letter-spacing: .125em;
+    margin-bottom: 1em;
+    text-align: center; 
+}
+
+#vision a.phone.before { 
+    /*content: ;*/
+}
+
+#vision form {
+    border: 6px solid var(--gold);
+    padding: 1em;
+}
+
 /******* NAVIGATION *******/
 
 a.icon {
@@ -246,7 +279,7 @@ header a.icon {
 }
 
 header {
-    background: url(/static/img/header-curved.svg) center center no-repeat;
+    background: url(/static/img/TAP-curvedheader.svg) center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -401,12 +434,6 @@ main p {
 main .grid-container p {
     cursor: pointer;
     letter-spacing: normal;
-}
-
-main #results {
-/*    width: 80%;
-    margin-left: auto;
-    margin-right: auto;*/
 }
 
 .grid-container {
@@ -661,5 +688,14 @@ footer a.tel {
         grid-row-gap: 1.5em;
         margin-bottom: 2em;
     }
+
+    #vision {
+        padding: 2em;
+    }
+
+    #vision form {
+        padding: 2em;
+    }
+
 
 }
