@@ -31,7 +31,6 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 </div>
 
 <div id="vision" class="modal">
-  <div class="modal-decoration"><img src="/static/img/TAP-popup-detail.svg"></div>
   <div class="modal-form-container">
     <form name="contact" method="POST" netlify>
       <img src="/static/img/TAP-popup-rule.svg" style="width: 100%;">

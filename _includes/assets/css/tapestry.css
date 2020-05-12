@@ -254,6 +254,7 @@ a.share-your-vision {
 }
 
 #vision form {
+    border-top: 6px solid var(--gold);
     border-left: 6px solid var(--gold);
     border-right: 6px solid var(--gold);
     border-bottom: 6px solid var(--gold);
@@ -262,7 +263,7 @@ a.share-your-vision {
 
 .modal-form-container {
     background: white;
-    padding: 0 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 /******* NAVIGATION *******/

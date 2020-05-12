@@ -31,10 +31,10 @@
     vertical-align: middle;
     position: relative;
     z-index: 2;
-    max-width: 500px;
+    max-width: 1000px;
     box-sizing: border-box;
     width: 100%;
-    padding: 15px 30px;
+    /*padding: 15px 30px;*/
     border-radius: 0px;
     text-align: left
 }
