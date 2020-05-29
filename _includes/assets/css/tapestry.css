@@ -263,8 +263,15 @@ a.share-your-vision {
 
 .modal-form-container {
     background: white;
-    padding: 1em 1em 1em 1em;
+    padding: calc(2em - 6px);
 }
+
+.modal-form-decorator {
+    background: url(/static/img/TAP-popup-detail.svg) center top no-repeat;
+    padding: 3.5em;
+    transform: translateY(2em);
+}
+
 
 .page-thank-you h1 {
     margin: 4em auto 1em;
