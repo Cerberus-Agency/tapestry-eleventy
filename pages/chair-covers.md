@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<img class="photo fullwidth" src="/static/img/chair-covers-1400.jpg" alt="chair covers">
+<img class="photo fullwidth hero" src="/static/img/chair-covers-1400.jpg" alt="chair covers">
 
 # Chair Covers
 

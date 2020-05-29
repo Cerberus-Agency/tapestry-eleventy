@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<img class="photo fullwidth" src="/static/img/courtyard-whitechairs-1400.jpg" alt="decorated outdoor environment">
+<img class="photo fullwidth hero" src="/static/img/courtyard-whitechairs-1400.jpg" alt="decorated outdoor environment">
 
 # Table Linens
 

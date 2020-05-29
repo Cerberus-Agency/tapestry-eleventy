@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-<img class="photo fullwidth" src="/static/img/services-bluetree-1000.jpg" alt="decorated environment">
+<img class="photo fullwidth hero" src="/static/img/services-bluetree-1000.jpg" alt="decorated environment">
 
 <h2 class="color-003366">Services</h2>
 

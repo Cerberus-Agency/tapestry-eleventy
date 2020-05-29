@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 4
 ---
 
-<img class="photo fullwidth" src="/static/img/reyka-vodka-hut.jpg" alt="decorated environment">
+<img class="photo fullwidth hero" src="/static/img/reyka-vodka-hut.jpg" alt="decorated environment">
 
 <h2 class="color-003366">Events</h2>
 
