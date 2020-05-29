@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 0
 ---
 
-<img class="photo fullwidth" src="/static/img/fountain-pinklight-1000.jpg" alt="decorated environment">
+<img class="photo fullwidth hero" src="/static/img/fountain-pinklight-1000.jpg" alt="decorated environment">
 
 # NEW ORLEANS' PREMIER SOURCE FOR LINENS, DECOR, AND FLORAL DESIGNS.
 

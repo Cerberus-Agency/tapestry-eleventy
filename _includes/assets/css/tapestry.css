@@ -115,6 +115,16 @@ select {
     width: 100vw;
 }
 
+.hero {
+    height: 80vh;
+}
+
+.hero.fullwidth {
+    margin: 0 0 0 -100%;
+    width: auto;
+    max-width: inherit;
+}
+
 .grid {
     display: grid;
 }
@@ -715,6 +725,16 @@ footer a.tel {
         grid-column-gap: 1.5em;
         grid-row-gap: 1.5em;
         margin-bottom: 2em;
+    }
+
+    .hero.fullwidth {
+        margin: 0 calc(50% - 50vw);
+        max-width: 100vw;
+        width: 100vw;
+    }
+    
+    .hero {
+         height: auto; 
     }
 
     #vision {
