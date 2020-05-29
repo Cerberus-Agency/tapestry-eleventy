@@ -266,6 +266,15 @@ a.share-your-vision {
     padding: 1em 1em 1em 1em;
 }
 
+.page-thank-you h1 {
+    margin: 4em auto 1em;
+}
+
+.page-thank-you p {
+    text-align: center;
+}
+
+
 /******* NAVIGATION *******/
 
 a.icon {
