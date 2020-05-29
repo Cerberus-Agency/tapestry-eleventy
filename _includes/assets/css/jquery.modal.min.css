@@ -123,7 +123,7 @@
 
 @media screen and (min-width:768px) {
     .modal a.close-modal {
-        top: 126.5px;
-        right: 16.5px;
+        top: 8em;
+        right: 1em;
     }
 }
