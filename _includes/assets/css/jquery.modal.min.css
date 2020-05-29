@@ -41,8 +41,8 @@
 
 .modal a.close-modal {
     position: absolute;
-    top: 126.5px;
-    right: 16.5px;
+    top: 4em;
+    right: 0;
     display: block;
     width: 30px;
     height: 30px;
@@ -116,5 +116,14 @@
     20% {
         transform: scaleY(1.0);
         -webkit-transform: scaleY(1.0)
+    }
+}
+
+/******* MEDIA QUERIES: DESKTOP *******/
+
+@media screen and (min-width:768px) {
+    .modal a.close-modal {
+        top: 126.5px;
+        right: 16.5px;
     }
 }
