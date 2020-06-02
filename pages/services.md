@@ -13,11 +13,12 @@ eleventyNavigation:
 
 Create a unique and stunning event by accessing Tapestry's distinctive linens, decor, and floral design rentals. Select from a constantly trending inventory of the season's hottest colors, fabrics, and styles for any occasion—from classic weddings and colorful children's birthday parties, to corporate affairs of the highest order.
 
-Trust Tapestry to elevate events to the next level by providing a selection of high-quality party rentals that include tablecloths, specialty linen, centerpieces, floral arrangements, furniture, and chair covers that fit properly—no matter the style. Tapestry can also provide other finishing touches such as charger plates, striking centerpieces, and special lighting rentals for maximum impact.
+Trust Tapestry to elevate events to the next level by providing a selection of high-quality party rentals that include tablecloths, specialty linen, non-floral centerpieces, floral arrangements, furniture, and chair covers that fit properly—no matter the style. Tapestry can also provide other finishing touches such as charger plates, striking centerpieces, and special lighting rentals for maximum impact. Tapestry can also provide custom décor, such as personalized custom backdrops, themed props, feather towers, and specialty lighting, down to the finishing touches such as charger plates, second line umbrellas, and hand painted napkin rings.
 
 Beyond offering a tremendous rental inventory, Tapestry's professional staff can also work with individuals, planners, or venues to provide all the design details and logistics, including the timing of delivery, set-up and disassembly of each event from start to finish. Of course, anytime there is a question during the process, our team is ready with the answer.
 
 It's this degree of exceptional service that has helped Tapestry earn its reputation for providing exceptional events and true peace of mind to brides, event planners, convention groups, casinos, corporations, catering companies, restaurants, banquet halls, and hotels across the city of New Orleans.
+
 
 <h2 class="designers color-003366">Designers</h2>
 
