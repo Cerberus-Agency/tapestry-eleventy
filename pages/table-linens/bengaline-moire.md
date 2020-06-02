@@ -11,11 +11,11 @@ permalink: /rentals/table-linens/bengaline-moire/index.html
 
 <a title="Apple Green" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg">![Apple Green](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-apple-crop.jpg "Apple Green")</a>
 
-<a title="Beige" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg">![Beige](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Beige")</a>
-
 <a title="Black" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg">![Black](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-black-crop.jpg "Black")</a>
 
 <a title="Burnt Orange" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burnt-orange-crop.jpg">![Burnt Orange](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-burntorange-crop.jpg "Burnt Orange")</a>
+
+<a title="Champagne" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg">![Champagne](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-beige-crop.jpg "Champagne")</a>
 
 <a title="Corn Silk" class="photo-overlay" href="/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg">![Corn Silk](/static/img/table-linens/01-Bengaline-Moire/bengalinemoire-cornsilk-crop.jpg "Corn Silk")</a>
 

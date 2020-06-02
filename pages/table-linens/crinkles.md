@@ -21,17 +21,17 @@ permalink: /rentals/table-linens/crinkles/index.html
 
 <a title="Copper" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-copper-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-copper-crop.jpg)</a>
 
-<a title="Ivory" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-copper-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-copper-crop.jpg)</a>
+<a title="Ivory" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-ivory-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-ivory-crop.jpg)</a>
 
 <a title="Lime" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-lime-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-lime-crop.jpg)</a>
 
 <a title="Navy" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-navy-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-navy-crop.jpg)</a>
 
-<a title="Orange" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-purple-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-purple-crop.jpg)</a>
+<a title="Orange" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-orange-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-orange-crop.jpg)</a>
 
 <a title="Purple" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-purple-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-purple-crop.jpg)</a>
 
-<a title="Red" class="photo-overlay" href="static/img/table-linens/02-Crinkles/crushedsatin-red-crop.jpg">![](static/img/table-linens/02-Crinkles/crushedsatin-red-crop.jpg)</a>
+<a title="Red" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-red-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-red-crop.jpg)</a>
 
 <a title="Royal" class="photo-overlay" href="/static/img/table-linens/02-Crinkles/crushedsatin-royal-crop.jpg">![](/static/img/table-linens/02-Crinkles/crushedsatin-royal-crop.jpg)</a>
 
