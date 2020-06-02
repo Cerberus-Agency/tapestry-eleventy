@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # Chair Accessories
 
-Chair Bands, Chair Sashes, Chair Backs
+Chair Bands, Chair Ties & Sashes, Chair Pad Covers and Barstool Seat Caps come in a wide assortment of colors and fabrics upon request.
 
 <section class="grid-container" markdown="1">
 
