@@ -10,9 +10,9 @@ permalink: /rentals/table-linens/lamour/index.html
 
 <section class="grid-container" markdown="1">
 
-<a title="black cirque" class="photo-overlay" href="/static/img/table-linens/09-Lamour/Lamoure-Black_Cirque.jpg">![](/static/img/table-linens/09-Lamour/Lamoure-Black_Cirque.jpg)</a>
+<!-- <a title="black cirque" class="photo-overlay" href="/static/img/table-linens/09-Lamour/Lamoure-Black_Cirque.jpg">![](/static/img/table-linens/09-Lamour/Lamoure-Black_Cirque.jpg)</a> -->
 
-<a title="black cirque" class="photo-overlay" href="/static/img/table-linens/09-Lamour/Lamoure-Black.jpg">![](/static/img/table-linens/09-Lamour/Lamoure-Black.jpg)</a>
+<a title="black" class="photo-overlay" href="/static/img/table-linens/09-Lamour/Lamoure-Black.jpg">![](/static/img/table-linens/09-Lamour/Lamoure-Black.jpg)</a>
 
 <a title="black niko" class="photo-overlay" href="/static/img/table-linens/09-Lamour/lamoure-blackniko.png">![](/static/img/table-linens/09-Lamour/lamoure-blackniko.png)</a>
 
