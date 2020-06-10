@@ -24,7 +24,7 @@ TABLE AND STAGE SKIRTING: 14’, 21'
 
 <form>
 <select id="table-linens" name="table-linens">
-	<option value="">Fabric Options</option>
+	<option selected disabled hidden>Fabric Options</option>
 	<option value="bengaline-moire">Bengaline Moire</option>
 	<option value="crinkles">Crinkles</option>
 	<option value="bichon-satin">Bichon Satin</option>

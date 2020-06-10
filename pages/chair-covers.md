@@ -16,7 +16,7 @@ Assorted texture and colors.
   
 <form id="chair-covers-select">
 <select id="chair-covers" name="chair-covers">
-	<option value="">Fabric Options</option>
+	<option selected disabled hidden>Fabric Options</option>
 	<option value="spandex-rouched">Spandex Rouched</option>
 	<option value="spandex-fitted">Spandex Fitted</option>
 	<option value="universal-wrap">Universal Wrap Lamoure</option>
