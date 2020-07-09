@@ -38,8 +38,6 @@ TABLE AND STAGE SKIRTING: 14’, 21'
 	<option value="spandex">Spandex</option>
 	<option value="taffeta">Taffeta</option>
 	<option value="tinsels">Tinsels</option>
-	<option value="floral-tinsel">Floral Tinsel</option>
-	<option value="twinkle-tinsel">Twinkle Tinsel</option>
 	<option value="velvet">Velvet</option>
 </select>
 </form>
