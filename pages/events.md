@@ -17,7 +17,7 @@ Spandex Tornadoes
 
 Custom Furniture – antique chairs, bars, theatrical scenery
 
-Centerpieces
+Custom Décor & Centerpieces
 
 <section class="grid-container" markdown="1">
 
