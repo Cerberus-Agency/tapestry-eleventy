@@ -2,7 +2,7 @@
 title: Tinsels, a.k.a Shag
 date: 2020-04-15T00:00:00.000Z
 layout: layouts/plain.njk
-permalink: /rentals/table-linens/tinsels-aka-shag/index.html
+permalink: /rentals/table-linens/tinsels/index.html
 
 ---
 
