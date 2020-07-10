@@ -418,20 +418,28 @@ a.tel {
 }
 
 #site-navigation.is-active a {
-    color: gray;
+    color: white;
     font-size: 2em;
     letter-spacing: .33em;
+    padding-left: 55px;
 }
 
 #site-navigation.is-active a:hover, #site-navigation.is-active a:active {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
 #site-navigation.is-active .second-level li a {
     color: white;
     font-size: 1em;
+    margin-left: 35px;
 }
+
+#site-navigation.is-active .second-level a:hover, #site-navigation.is-active .second-level a:active {
+    color: gray;
+    text-decoration: none;
+}
+
 
 #cls-1 {
     transition: fill .25s
