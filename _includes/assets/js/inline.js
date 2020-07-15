@@ -17,15 +17,6 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
     });
 
-    $("#contact-form").submit(function(e) {
-        e.preventDefault();
-
-        var $form = $(this);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-            alert("Thank you!");
-        });
-    });
-
     $(document).on('change', '#chair-covers', function() {
         var category = $(this).val();
         console.log(category);
