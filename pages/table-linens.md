@@ -14,15 +14,12 @@ eleventyNavigation:
 
 Pictures depict available colors/patterns/designs in tablecloths and also may be available as napkins, chair covers, and ties. Please call us to verify.
 
-ROUND: 90”, 108”, 120”, 132” 
 
 SQUARE: 72", 90”
 
-BANQUET: 60x120", 90x132”, 90x156”
+BANQUET: 60"x120", 90x132”, 90x156”, 6'\*, 8'\*
 
 TABLE AND STAGE SKIRTING: 14’, 21'
-
-SPANDEX TABLE LINENS: Available sizes are Rounds: 30”, 48”, 60”, 72”, and rectangular Hiboy tables take 30x42”. Banquet sizes are 6’ and 8’.
 
 <form>
 <select id="table-linens" name="table-linens">
@@ -40,8 +37,6 @@ SPANDEX TABLE LINENS: Available sizes are Rounds: 30”, 48”, 60”, 72”, an
 	<option value="spandex">Spandex</option>
 	<option value="taffeta">Taffeta</option>
 	<option value="tinsels">Tinsels</option>
-	<option value="floral-tinsel">Floral Tinsel</option>
-	<option value="twinkle-tinsel">Twinkle Tinsel</option>
 	<option value="velvet">Velvet</option>
 </select>
 </form>
