@@ -7,28 +7,81 @@ eleventyNavigation:
   order: 3
 ---
 
-<img class="photo fullwidth hero" src="/static/img/courtyard-whitechairs-1400.jpg" alt="decorated outdoor environment">
+<img class="photo fullwidth hero" src="/static/img/section-header-decoration-desktop-003366.png" alt="decorated outdoor environment">
 
-# Table Linens
+# Rentals
 
 Pictures depict available colors/patterns/designs in tablecloths and also may be available as napkins, chair covers, chair ties, chair bands, with ties, chair covers with bands, elastic pad covers, sham pad covers, and chair caps. Please call us to verify.
 
-ROUND: 90”, 96”, 108”, 120”, 132” SQUARE: 90”, 120”, 132”
+<div class="filter-menu">
+	<button type="button" class="open-filter">Filter</button>
+</div>
 
-SKIRT: 7’, 14’
+<div class="side-filter">
+	<form id="rent-options">	
+		<!--Chair Covers  -->
+			<label for="chair-covers-rent"><b>Chair Covers</b></label>
+			<input type="radio" id="chair-covers-rent" value="chair-covers" checked="checked"><br>
+				<label for="spandex-rouched" class="rent-indent">Spandex Rouched</label>
+				<input type="radio" id="spandex-rouched" value="spandex-rouched" checked="checked"><br>
+				<label for="spandex-fitted" class="rent-indent">Spandex Fitted</label>
+				<input type="radio" id="spandex-fitted" value="spandex-fitted" checked="checked"><br>
+				<label for="universal-wrap-lamoure" class="rent-indent">Universal Wrap Lamoure</label>
+				<input type="radio" id="universal-wrap-lamoure" value="universal-wrap-lamoure" checked="checked"><br>
+		<!-- Table Accessories -->
+			<label for="table-accessories-rent"><b>Table Accessories</b></label>
+			<input type="radio" id="table-accessories-rent" value="table-accessories" checked="checked"><br>
+		<!--Table Linens  -->
+			<label for="table-linens-rent"><b>Table Linens</b></label>
+			<input type="radio" id="table-linens-rent" value="table-linens" checked="checked"><br>
+				<label for="bengaline-moire" class="rent-indent">Bengaline Moire</label>
+				<input type="radio" id="bengaline-moire" value="bengaline-moire" checked="checked"><br>
+				<label for="crinkles" class="rent-indent">Crinkles</label>
+				<input type="radio" id="crinkles" value="crinkles"><br>
+				<label for="bichon-satin" class="rent-indent">Bichon Satin</label>
+				<input type="radio" id="bichon-satin" value="bichon-satin" checked="checked"><br>
+				<label for="damasks" class="rent-indent">Damasks</label>
+				<input type="radio" id="damasks" value="damasks"><br>
+				<label for="glitz-sequins" class="rent-indent">Glitz Sequins</label>
+				<input type="radio" id="glitz-sequins" value="glitz-sequins"><br>
+				<label for="lame" class="rent-indent">Lam&eacute;</label>
+				<input type="radio" id="lame" value="lame"><br>
+				<label for="lamour" class="rent-indent">Lamour</label>
+				<input type="radio" id="lamour" value="lamour"><br>
+				<label for="pintucks"class="rent-indent">Pintucks</label>
+				<input type="radio" id="pintucks" value="pintucks" checked="checked"><br>
+				<label for="poly-cotton-blend"class="rent-indent">Poly-Cotton Blend</label>
+				<input type="radio" id="poly-cotton-blend" value="poly-cotton-blend"><br>
+				<label for="sheers"class="rent-indent">Sheers</label>
+				<input type="radio" id="sheers" value="sheers"><br>
+				<label for="spandex"class="rent-indent">Spandex</label>
+				<input type="radio" id="spandex" value="spandex"><br>
+				<label for="taffeta"class="rent-indent">Taffeta</label>
+				<input type="radio" id="taffeta" value="taffeta" checked="checked"><br>
+				<label for="tinsels"class="rent-indent">Tinsels</label>
+				<input type="radio" id="tinsels" value="tinsels"><br>
+				<label for="velvet"class="rent-indent">Velvet</label>
+				<input type="radio" id="velvet" value="velvet" checked="checked"><br>
+		<!-- Chair Accessories -->
+			<label for="chair-accessories-rent"><b>Chair Accessories</b></label>
+			<input type="radio" id="chair-accessories-rent" value="chair-accessories" checked="checked"><br>
+	</form>
+	<button id="rent-submit" form="rent-options" type="button">APPLY</button>
+</div>
 
-BANQUET: 90x132”, 90x156”, 108x156”
 
-<form class="select-a-fabric">
-<select id="table-linens" name="table-linens">
-	<option value="">Fabric Options</option>
+
+
+
+
+
+
+<!-- <form class="select-a-fabric">
+<select id="rentals" name="rentals">
+	<option value="">Rentals Options</option>
 	<option value="bengaline-moire">Bengaline Moire</option>
 	<option value="crinkles">Crinkles</option>
 	<option value="bichon-satin">Bichon Satin</option>
-	<option value="damasks">Damasks</option>
-	<option value="exquisite-payette">Exquisite Payette</option>
-	<option value="glitz-sequins">Glitz Sequins</option>
-	<option value="lame">Lam&eacute;</option>
 </select>
 </form>
-<div id="results"></div>
+<div id="results"></div> -->

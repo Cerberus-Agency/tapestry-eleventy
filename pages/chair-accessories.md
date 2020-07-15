@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 4
 ---
 
-<img class="photo fullwidth hero" src="/static/img/ballroom-bluechairs.jpg" alt="chair accessories">
+<img class="photo fullwidth hero" src="/static/img/TAP-Header-ChairAccessories-V2.jpg" alt="chair accessories">
 
 # Chair Accessories
 

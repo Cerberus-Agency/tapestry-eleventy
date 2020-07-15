@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<img class="photo fullwidth hero" src="/static/img/TAP-Header-TableAccessories.jpg" alt="table accessories">
+<img class="photo fullwidth hero" src="/static/img/TAP-Header-TableAccessories-V2.jpg" alt="table accessories">
 
 # Table Accessories
 

@@ -41,6 +41,21 @@ a[href]:not(:hover) {
     text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px#fc3;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 15px;
+  outline: 3px solid #fc3;
+}
+
 h1, h2 {
     font-size: 18px;
     font-weight: 500;
@@ -185,7 +200,7 @@ header nav li a[data-current="current item"] {
 }
 
 /****** Contact Form ******/
-
+#contact-form
 input,
 textarea,
 button {
@@ -678,6 +693,101 @@ footer a.tel {
 .chair-accessories main img {
     width: 100%;
 }
+
+/******* RENTALS FILTER *******/
+
+.filter-menu {
+    text-align: center;
+}
+
+.filter-menu button{
+    border-radius: 25px;
+    width: 7em;
+    height: 2em;
+    color: #fc3;
+    letter-spacing: 0;
+    padding: 0;
+    margin: 0 0 5px 0px;
+    outline: none;
+}
+
+.side-filter{
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+    margin: 0px 10px 10px 0px;
+    max-width: 425px;
+    max-height: 500px;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    line-height: 1.5em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 20;
+}
+
+#rent-options {
+    margin: 15px;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+}
+
+.rent-indent {
+    margin-left: 25px;
+}
+
+  input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1.5px solid #fc3;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  /* appearance for checked radiobutton */
+input[type="radio"]:checked {
+    border: 2px solid #fc3;
+    background-color: var(--blue);
+    outline: none;
+}
+
+#rent-submit {
+    border-radius: 25px;
+    width: 30%;
+    color: #fc3;
+    letter-spacing: 0;
+    padding: 0;
+    margin: 0 0 5px 110px;
+    outline: none;
+}
+
+.side-filter::-webkit-scrollbar {
+    width: 18px;
+    height: 15px;
+    z-index: 10;
+}
+.side-filter::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 75px;
+    background-color: var(--blue);
+    -webkit-box-shadow: inset -15px -8px 0px rgba(0, 0, 0, 0),
+}
+
 
 /******* MEDIA QUERIES: DESKTOP *******/
 

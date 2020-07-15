@@ -9,6 +9,7 @@ if (window.netlifyIdentity) {
 }
 
 $(document).ready(function() {
+    
     var $hamburger = $(".hamburger");
     $hamburger.on("click", function(e) {
         $hamburger.toggleClass("is-active");
@@ -64,6 +65,41 @@ $(document).ready(function() {
         var category = $(this).val();
         console.log(category);
         $.get('/rentals/table-linens/' + category + '/index.html', function(data) {
+            $('#results').html(data);
+            $('.grid-container').each(function() {
+                $(this).magnificPopup({
+                    type: 'image',
+                    delegate: 'a',
+                    gallery: {
+                        enabled: true,
+                        preload: [0, 1],
+                        navigateByImgClick: true,
+                        arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+                        tPrev: 'Previous (Left arrow key)',
+                        tNext: 'Next (Right arrow key)',
+                    },
+                    image: {
+                        markup: '<div class="mfp-figure">' +
+                                '<div class="mfp-close"></div>' +
+                                '<div class="mfp-img"></div>' +
+                                '<div class="mfp-bottom-bar">' +
+                                '<div class="mfp-title"></div>' +
+                                '<div class="mfp-counter"></div>' +
+                                '</div>' +
+                                '</div>',
+                        titleSrc: 'title',
+                        verticalFit: true,
+                        tError: '<a href="%url%">The image</a> could not be loaded.'
+                    }
+                });
+            });
+        });
+    });
+
+    $(document).on('change', '#rentals', function() {
+        var category = $(this).val();
+        console.log(category);
+        $.get('/rentals/rentals/' + category + '/index.html', function(data) {
             $('#results').html(data);
             $('.grid-container').each(function() {
                 $(this).magnificPopup({
