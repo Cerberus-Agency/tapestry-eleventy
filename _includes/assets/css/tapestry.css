@@ -712,6 +712,7 @@ footer a.tel {
 }
 
 .side-filter{
+    /* last margin will be 0 for menu to appear */
     display: inline-block;
     position: relative;
     padding-left: 5px;
@@ -724,6 +725,23 @@ footer a.tel {
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: 20;
+    left: -357px;
+    transition: all .5s ease-in-out;
+}
+
+#close-filter {
+    background: var(--blue);
+    color: #fc3;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    width: 18px;
+    height: 22px;
+    border-radius: 5px;
+    left: 95%;
+    margin-left: auto;
+    cursor: pointer;
 }
 
 #rent-options {
@@ -732,12 +750,15 @@ footer a.tel {
     margin-bottom: 1em;
     font-size: 1rem;
 }
+#rent-options label {
+    cursor: pointer;
+}
 
 .rent-indent {
     margin-left: 25px;
 }
 
-  input[type="radio"] {
+input[type="checkbox"] {
     /* remove standard background appearance */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -748,6 +769,8 @@ footer a.tel {
     width: 15px;
     height: 15px;
     padding: 3px;
+    margin-bottom: -2px !important;
+    cursor: pointer;
 
     /* background-color only for content */
     background-clip: content-box;
@@ -758,10 +781,12 @@ footer a.tel {
   }
   
   /* appearance for checked radiobutton */
-input[type="radio"]:checked {
+input[type="checkbox"]:checked {
     border: 2px solid #fc3;
     background-color: var(--blue);
     outline: none;
+    margin-bottom: -2px !important;
+    cursor: pointer;
 }
 
 #rent-submit {
