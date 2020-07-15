@@ -18,9 +18,11 @@ ROUND: 90”, 108”, 120”, 132”
 
 SQUARE: 72", 90”
 
-BANQUET: 60"x120", 90x132”, 90x156”
+BANQUET: 60x120", 90x132”, 90x156”
 
 TABLE AND STAGE SKIRTING: 14’, 21'
+
+SPANDEX TABLE LINENS: Available sizes are Rounds: 30”, 48”, 60”, 72”, and rectangular Hiboy tables take 30x42”. Banquet sizes are 6’ and 8’.
 
 <form>
 <select id="table-linens" name="table-linens">
