@@ -33,10 +33,11 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 <div id="vision" class="modal">
   <div class="modal-form-decorator"></div>
   <div class="modal-form-container">
-    <form name="contact" method="POST" netlify>
+    <form name="modal-contact" method="POST" id="modal-contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
       <img src="/static/img/TAP-popup-rule.svg" style="width: 100%;">
       <h3>Share your vision with us.</h3>
       <a class="phone" href="tel:5049155719">504-915-5719</a>
+      <p class="hidden"><label>Don’t fill this out if you're human:</label><input name="bot-field" /></p>
       <label for="name">Name</label>
       <input type="text" name="name" id="name" autocomplete="name" placeholder="Your name" title="Please enter your name" required>
       <label for="email">Email Address</label>

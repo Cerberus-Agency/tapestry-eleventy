@@ -186,6 +186,10 @@ header nav li a[data-current="current item"] {
 
 /****** Contact Form ******/
 
+.hidden {
+    display: none;
+}
+
 input,
 textarea,
 button {
