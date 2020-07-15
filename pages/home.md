@@ -33,7 +33,7 @@ From elegant chair coverings, stunning tablecloths, and specialty linen rentals 
 <div id="vision" class="modal">
   <div class="modal-form-decorator"></div>
   <div class="modal-form-container">
-    <form name="modal-contact" method="POST" id="modal-contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <form name="modal-contact" method="POST" id="modal-contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="thank-you">
       <img src="/static/img/TAP-popup-rule.svg" style="width: 100%;">
       <h3>Share your vision with us.</h3>
       <a class="phone" href="tel:5049155719">504-915-5719</a>
