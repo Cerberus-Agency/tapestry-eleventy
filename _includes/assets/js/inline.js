@@ -337,125 +337,6 @@ $(document).ready(function() {
             $("#table-linens-rent").prop("checked", false);
         }
     });
-
-
-    // var tempObj = {"color": "","pic": ""}
-
-    const RentalObject = {
-        "spandex-rouched":
-            {
-                "title": "Chair Covers",
-                "style": "Spandex-Rouched",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "spandex-fitted":
-            {
-                "title": "Chair Covers",
-                "style": "Spandex Fitted",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "universal-wrap":
-            {
-                "title": "Chair Covers",
-                "style": "Univeral Wrap",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "chair-accessories":
-            {
-                "title": "Chair Accessories",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "bengaline-moire":         
-            {
-                "title": "Table Linens",
-                "style": "Bengaline Moire",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "bichon-satin":
-            {
-                "title": "Table Linens",
-                "style": "Bichon Satin",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "crinkles":
-            {
-                "title": "Table Linens",
-                "style": "Crinkles",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "damasks":
-            {
-                "title": "Table Linens",
-                "style": "Damasks",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "glitz-sequins":
-            {
-                "title": "Table Linens",
-                "style": "Glitz Sequins",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "lame": 
-            {
-                "title": "Table Linens",
-                "style": "Lam&eacute",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "lamour":
-            {
-                "title": "Table Linens",
-                "style": "Lamour",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "pintucks": 
-            {
-                "title": "Table Linens",
-                "style": "Pintucks",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "poly-cotton-blend":           
-            {
-                "title": "Table Linens",
-                "style": "Poly-Cotton Blend",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "sheers":           
-            {
-                "title": "Table Linens",
-                "style": "Sheers",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "spandex":         
-            {
-                "title": "Table Linens",
-                "style": "Spandex",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "taffeta":             
-            {
-                "title": "Table Linens",
-                "style": "Taffeta",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "tinsels":            
-            {
-                "title": "Table Linens",
-                "style": "Tinsels",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "velvet":          
-            {
-                "title": "Table Linens",
-                "style": "Velvet",
-                "pictures": [{"color": "","pic": ""}]
-            },
-        "table-accessories":           
-            {
-                "title": "Table Accessories",
-                "pictures": [{"color": "","pic": ""}]
-            },
-
-    };
     
     function getRentalResults (){
         var searchValues = new Array();
@@ -469,11 +350,24 @@ $(document).ready(function() {
             }
         });
         console.log(searchValues);
-
     };
+
+    function testfunc (){
+        if($("#tinsel-toggle").is(":hidden")){
+            $("#tinsel-toggle:hidden").show();
+        }else if ($("#tinsel-toggle").is(":visible")){
+            $("#tinsel-toggle:visible").hide();
+        }
+        if($("#velvet-toggle").is(":visible")){
+            $("#velvet-toggle:visible").hide();  
+        }else if ($("#velvet-toggle").is(":hidden")){
+            $("#velvet-toggle:hidden").show(); 
+        }
+    }
     
     $("#rent-submit").click(function (){
         $(".side-filter").css("left", "-357px");
-        getRentalResults();
+        // getRentalResults();
+        // testfunc();
     });
 });

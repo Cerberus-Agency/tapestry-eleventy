@@ -569,6 +569,7 @@ a.photo-overlay:hover img {
 a.photo-overlay:hover {
     background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
     color: var(--blue);
+    /* width: 150px; */
 }
 
 a.photo-overlay:hover:before {
@@ -583,7 +584,7 @@ a.photo-overlay:hover:before {
     padding-left: .125em;
     line-height: 1;
     text-align: center;
-    width: 100%;
+    width: 150px;
     height: 100%;
     text-transform: uppercase;
 }
