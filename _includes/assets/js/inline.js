@@ -338,36 +338,38 @@ $(document).ready(function() {
         }
     });
     
+    const filterValues = ["chair-covers", "table-linens", "rent-spandex-rouched", "rent-spandex-fitted", "rent-universal-wrap", "rent-chair-accessories", "rent-bengaline-moire", "rent-bichon-satin", "rent-crinkles", "rent-damasks", "rent-glitz-sequins", "rent-lame", "rent-lamour", "rent-pintucks", "rent-poly-cotton-blend", "rent-sheers", "rent-spandex", "rent-taffeta", "rent-tinsels", "rent-velvet", "rent-table-accessories"];
+
     function getRentalResults (){
         var searchValues = new Array();
         $("input[type=checkbox]").each(function (){
             if($(this).is(":checked")){
-                if($(this).hasClass("parent")){
-
-                } else{
                     searchValues.push($(this).val());
-                }
             }
         });
+        filterValues.forEach(category => {
+           if(searchValues.includes(category)){
+                $("#" + category + ":hidden").show();
+           } else {
+                $("#" + category + ":visible").hide();
+           }
+        })
         console.log(searchValues);
     };
-
-    function testfunc (){
-        if($("#tinsel-toggle").is(":hidden")){
-            $("#tinsel-toggle:hidden").show();
-        }else if ($("#tinsel-toggle").is(":visible")){
-            $("#tinsel-toggle:visible").hide();
-        }
-        if($("#velvet-toggle").is(":visible")){
-            $("#velvet-toggle:visible").hide();  
-        }else if ($("#velvet-toggle").is(":hidden")){
-            $("#velvet-toggle:hidden").show(); 
-        }
-    }
     
     $("#rent-submit").click(function (){
         $(".side-filter").css("left", "-357px");
-        // getRentalResults();
-        // testfunc();
+        getRentalResults();
+    });
+
+    $("#chair-accessories-setting").click(function(){
+        console.log("yes")
+        setTimeout(function (){
+            $("input[type=checkbox]").each(function (){
+                $(this).prop("checked", false);
+            });
+            $(".rent-chair-accessories").prop("checked", true);
+            getRentalResults();
+        }, 1000);    
     });
 });

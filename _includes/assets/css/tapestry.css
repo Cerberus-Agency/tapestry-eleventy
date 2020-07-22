@@ -689,45 +689,113 @@ footer a.tel {
     font-weight: 200;
 }
 
-/******* PAGES *******/
+/******* RENTALS *******/
 
-.chair-accessories main img {
-    width: 100%;
+.intro-rentals{
+    text-align: center;
+    background-color: #fff;
+    margin-left: -2%;
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
-/******* RENTALS FILTER *******/
+
+.rental-info  {
+    display: flex;
+    background-color: white !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rent-display img {
+    transition: opacity .5s;
+}
+
+.rent-display:hover img {
+    opacity: .2;
+    background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
+    color: var(--blue);
+}
+
+/* .rent-display:hover:before img{
+    content: attr(title);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    letter-spacing: .125em;
+    padding-left: .125em;
+    line-height: 1;
+    text-align: center;
+    width: 150px;
+    height: 100%;
+    text-transform: uppercase; 
+ } */
+
+
+
+/* a.photo-overlay {
+    display: block;
+    position: relative;
+}
+
+a.photo-overlay img {
+    transition: opacity .5s;
+}
+
+a.photo-overlay:hover img {
+    opacity: .2;
+}
+
+a.photo-overlay:hover {
+    background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
+    color: var(--blue);
+    /* width: 150px; */
+}
+
+/* a.photo-overlay:hover:before {
+    content: attr(title);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    letter-spacing: .125em;
+    padding-left: .125em;
+    line-height: 1;
+    text-align: center;
+    width: 150px;
+    height: 100%;
+    text-transform: uppercase; */
+/* } */ 
 
 .filter-menu {
     text-align: center;
-}
-
-.filter-menu button{
-    border-radius: 25px;
-    width: 7em;
-    height: 2em;
-    color: #fc3;
-    letter-spacing: 0;
-    padding: 0;
-    margin: 0 0 5px 0px;
-    outline: none;
 }
 
 .side-filter{
     /* last margin will be 0 for menu to appear */
     display: inline-block;
     position: relative;
-    padding-left: 5px;
-    margin: 0px 10px 10px 0px;
-    max-width: 425px;
-    max-height: 600px;
-    border: 2px solid var(--blue);
-    border-radius: 5px;
+    padding-left: 25%;
+    /* margin: 0px 10px 10px 0px; */
+    /* max-width: 425px; */
+    max-height: 570px;
+    border-right: 1px solid var(--blue);
     line-height: 1.5em;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
     z-index: 20;
-    left: -357px;
-    transition: all .5s ease-in-out;
+    /* left: -357px; */
+    /* transition: all .5s ease-in-out; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
 }
 
 #close-filter {
@@ -747,10 +815,12 @@ footer a.tel {
 }
 
 #rent-options {
-    margin: 15px;
-    padding: 1em;
+    /* margin: 15px; */
+    /* padding: 1em; */
+    padding-top: 1em;
+    padding-right: 1em;
     margin-bottom: 1em;
-    font-size: 1rem;
+    font-size: .75em;
 }
 #rent-options label {
     cursor: pointer;
@@ -796,7 +866,7 @@ input[type="checkbox"]:checked {
 
 #rent-submit {
     border-radius: 25px;
-    width: 30%;
+    width: 35%;
     color: #fc3;
     letter-spacing: 0;
     padding: 0;
@@ -817,7 +887,60 @@ input[type="checkbox"]:checked {
     background-color: var(--blue);
     -webkit-box-shadow: inset -15px -8px 0px rgba(0, 0, 0, 0),
 }
+/******* Rent Body *******/
 
+.rent-display{
+    /* width: 50%; */
+    line-height: 1.5em;
+    /* margin-left: 6%; */
+    margin-left: -50px;;
+}
+
+.rent-display p {
+    margin-left: 12%;
+    text-align: center;
+    width: inherit;
+}
+
+.rent-display::-webkit-scrollbar {
+    width: 18px;
+    height: 15px;
+    z-index: 10;
+}
+.rent-display::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 75px;
+    background-color: var(--blue);
+    -webkit-box-shadow: inset -15px -8px 0px rgba(0, 0, 0, 0),
+}
+
+.rent-display h3 {
+    margin-left: 7%;
+    margin-right: auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rent-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap:.5em;
+    grid-row-gap: .5em;
+    width: 85%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.rent-container img {
+    height: 250px;
+    width: 225px;
+    cursor: pointer;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
 
 /******* MEDIA QUERIES: DESKTOP *******/
 
