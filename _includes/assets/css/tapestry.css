@@ -713,13 +713,25 @@ footer a.tel {
     transition: opacity .5s;
 }
 
-.rent-display:hover img {
+.rent-display img:hover {
+    display: grid;
     opacity: .2;
-    background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
-    color: var(--blue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    content: "test";
+    font-size: 1.5em;
 }
 
-/* .rent-display:hover:before img{
+/* .rent-display img:hover:after {
+    content: "test";
+    place-items: center;
+    font-size: 2em;
+    letter-spacing: .125em;
+    padding-left: .125em;
+    line-height: 1;
+    text-align: center;
+} */
+
+/* .rent-display img:hover:before {
     content: attr(title);
     display: grid;
     place-items: center;
@@ -755,7 +767,6 @@ a.photo-overlay:hover {
     background: #ffffff url(/static/img/section-header-decoration-desktop-003366.png) center calc(50% - 3em) no-repeat;
     color: var(--blue);
     /* width: 150px; */
-}
 
 /* a.photo-overlay:hover:before {
     content: attr(title);
