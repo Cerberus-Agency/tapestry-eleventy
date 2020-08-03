@@ -7,13 +7,11 @@ eleventyNavigation:
   parent: Rentals
   order: 3
 ---
-
-<img class="photo fullwidth hero" src="/static/img/section-header-decoration-desktop-003366.png" alt="decorated outdoor environment">
-
-# Rentals
-
-Pictures depict available colors/patterns/designs in tablecloths and also may be available as napkins, chair covers, chair ties, chair bands, with ties, chair covers with bands, elastic pad covers, sham pad covers, and chair caps. Please call us to verify.
-
+<div class="main-rental">
+<div class="intro-rentals">
+	<h2 class="rentals-header">Rentals</h2>
+		<p>Pictures depict available colors/patterns/designs in tablecloths and also may be available as napkins, chair covers, chair ties, chair bands, with ties, chair covers with bands, elastic pad covers, sham pad covers, and chair caps. Please call us to verify.</p>
+</div>
 <div class="rental-info">
 	<div class="side-filter">
 		<form id="rent-options">	

@@ -135,9 +135,9 @@ select {
 }
 
 .hero.fullwidth {
-    margin: 0 0 0 -100%;
+    margin: 0 -6% 0 -6%;
     width: auto;
-    max-width: inherit;
+    max-width: -webkit-fill-available; ;
 }
 
 .grid {
@@ -336,9 +336,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 14em;
+    min-height: 16em;
     position: relative;
     z-index: 10;
+    margin-top: -2%;
+    width: -webkit-fill-available;
 }
 
 header a.logo {
@@ -691,8 +693,9 @@ footer a.tel {
 
 /******* RENTALS *******/
 
-main-rental {
-    background-color: whiteFrent-display;
+.main-rental {
+    background-color: white;
+    max-width: 100%;
 }
 
 .intro-rentals{
@@ -700,7 +703,7 @@ main-rental {
     background-color: #fff;
     margin-top: auto!important;
     margin-bottom: auto!important;
-    padding-top: 1%;
+    padding-top: 4%;
     padding-bottom: 2%;
 }
 
@@ -767,7 +770,7 @@ main-rental {
     /* last margin will be 0 for menu to appear */
     display: inline-block;
     position: relative;
-    padding-left: 25%;
+    padding-left: 22%;
     /* margin: 0px 10px 10px 0px; */
     /* max-width: 425px; */
     max-height: 570px;
