@@ -18,11 +18,11 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
 
         if($("#site-navigation").hasClass("is-active")){
-            // document.getElementByClassName('side-filter').style.display = 'none';
-            console.log($(document).getElementByClassName('side-filter'));
+            // document.getElementById('side-filter').style.display = 'none';
+            console.log($(document).getElementById('side-filter'));
         } else {
             // document.getElementByClassName('side-filter').style.display = 'block';
-            console.log($(document).getElementByClassName('side-filter'), "nope");
+            // console.log($(document).getElementByClassName('side-filter'), "nope");
         }
     });
 
