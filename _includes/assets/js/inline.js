@@ -17,14 +17,14 @@ $(document).ready(function() {
         $("#site-navigation").toggleClass("is-active");
         $("#cls-1").toggleClass("is-active");
 
+        let hideFilter = document.getElementsByClassName("side-filter")[0].style.display;
+
         if($("#site-navigation").hasClass("is-active")){
-            // document.getElementById('side-filter').style.display = 'none';
-            var x = document.getElementsByClassName("side-filter")[0];
-            console.log(x);
+            hideFilter = "none";
+            console.log(hideFilter);
         } else {
-            // document.getElementByClassName('side-filter').style.display = 'block';
-            // console.log($(document).getElementByClassName('side-filter'), "nope");
-            console.log("not hitting");
+            hideFilter = "inline-block";
+            console.log(hideFilter);
         }
     });
 
