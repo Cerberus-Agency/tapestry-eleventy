@@ -425,7 +425,7 @@ a.tel {
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--transblue);
+    background: rgba(0, 51, 102, .95);
     padding: 7em 0 0 0;
     width: 100vw;
 }
