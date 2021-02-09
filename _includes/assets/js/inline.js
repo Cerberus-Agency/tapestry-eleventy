@@ -19,10 +19,10 @@ $(document).ready(function() {
 
         if($("#site-navigation").hasClass("is-active")){
             // document.getElementByClassName('side-filter').style.display = 'none';
-            console.log(document.getElementByClassName('side-filter'), "yepp")
+            console.log($(document).getElementByClassName('side-filter'));
         } else {
             // document.getElementByClassName('side-filter').style.display = 'block';
-            console.log(document.getElementByClassName('side-filter'), "nope")
+            console.log($(document).getElementByClassName('side-filter'), "nope");
         }
     });
 
