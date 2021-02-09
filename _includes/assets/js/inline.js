@@ -18,10 +18,10 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
 
         if($("#site-navigation").hasClass("is-active")){
-            document.getElementByClassName('side-filter').style.display = 'none';
+            // document.getElementByClassName('side-filter').style.display = 'none';
             console.log(document.getElementByClassName('side-filter'), "yepp")
         } else {
-            document.getElementByClassName('side-filter').style.display = 'block';
+            // document.getElementByClassName('side-filter').style.display = 'block';
             console.log(document.getElementByClassName('side-filter'), "nope")
         }
     });
