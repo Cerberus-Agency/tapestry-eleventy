@@ -467,7 +467,7 @@ a.tel {
 }
 
 .menu-nav{
-    padding-top: 70px;
+    padding-top: 70px !important;
 }
 
 /******* CONTENT *******/
