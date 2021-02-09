@@ -18,9 +18,11 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
 
         if($("#site-navigation").hasClass("is-active")){
-            $(".side-filter")[0].style.display = "hidden";
+            $(".side-filter")[0].style.display = "hidden !important";
+            console.log($(".side-filter")[0].style.display)
         } else {
-            $(".side-filter")[0].style.display = "block";
+            $(".side-filter")[0].style.display = "block !important";
+            console.log($(".side-filter")[0].style.display)
         }
     });
 
