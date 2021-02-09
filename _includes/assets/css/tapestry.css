@@ -418,7 +418,7 @@ a.tel {
 
 #site-navigation.is-active {
     display: grid;
-    height: 100vh;
+    height: 105vh;
     place-items: center;
     position: absolute;
     top: 0;
@@ -464,6 +464,10 @@ a.tel {
 
 #cls-1.is-active {
     fill: white;
+}
+
+.my-active-class{
+    padding-top: 70px;
 }
 
 /******* CONTENT *******/
