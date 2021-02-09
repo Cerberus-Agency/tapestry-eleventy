@@ -19,7 +19,7 @@ $(document).ready(function() {
 
         if($("#site-navigation").hasClass("is-active")){
             // document.getElementById('side-filter').style.display = 'none';
-            var x = document.getElementsByClassName("side-filter");
+            var x = document.getElementsByClassName("side-filter")[0];
             console.log(x);
         } else {
             // document.getElementByClassName('side-filter').style.display = 'block';
