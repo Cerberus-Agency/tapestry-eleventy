@@ -18,10 +18,12 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
 
         if($("#site-navigation").hasClass("is-active")){
-           document.getElementsByClassName("side-filter")[0].style.display = "none !important";
+           document.getElementsByClassName("side-filter")[0].style.display = "none";
+           console.log(document.getElementsByClassName("side-filter")[0].style.display)
             
         } else {
-            document.getElementsByClassName("side-filter")[0].style.display = "inline-block !important";
+            document.getElementsByClassName("side-filter")[0].style.display = "inline-block";
+            console.log(document.getElementsByClassName("side-filter")[0].style.display)
             
         }
     });
