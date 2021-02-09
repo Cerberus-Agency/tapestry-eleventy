@@ -16,7 +16,14 @@ $(document).ready(function() {
         // Do something else, like open/close menu
         $("#site-navigation").toggleClass("is-active");
         $("#cls-1").toggleClass("is-active");
+
+        if($("#site-navigation").hasClass("is-active")){
+            $(".side-filter").style.display = "none";
+        } else {
+            $(".side-filter").style.display = "block";
+        }
     });
+
 
     $(document).on('change', '#chair-covers', function() {
         var category = $(this).val();
