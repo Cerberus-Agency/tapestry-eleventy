@@ -19,10 +19,10 @@ $(document).ready(function() {
 
         if($("#site-navigation").hasClass("is-active")){
             document.getElementByClassName('side-filter').style.display = 'none';
-            console.log($(".side-filter")[0].style, "yepp")
+            console.log(document.getElementByClassName('side-filter'), "yepp")
         } else {
             document.getElementByClassName('side-filter').style.display = 'block';
-            console.log($(".side-filter")[0].style.display, "nope")
+            console.log(document.getElementByClassName('side-filter'), "nope")
         }
     });
 
