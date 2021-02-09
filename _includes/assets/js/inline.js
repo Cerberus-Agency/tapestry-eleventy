@@ -18,9 +18,9 @@ $(document).ready(function() {
         $("#cls-1").toggleClass("is-active");
 
         if($("#site-navigation").hasClass("is-active")){
-            console.log($(".side-filter"))
+            $(".side-filter")[0].style.display = "hidden";
         } else {
-            // $(".side-filter").style.display = "block";
+            $(".side-filter")[0].style.display = "block";
         }
     });
 
