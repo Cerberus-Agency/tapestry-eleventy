@@ -19,10 +19,12 @@ $(document).ready(function() {
 
         if($("#site-navigation").hasClass("is-active")){
             // document.getElementById('side-filter').style.display = 'none';
-            console.log($(document).getElementById('side-filter'));
+            var x = document.getElementsByClassName("side-filter");
+            console.log(x);
         } else {
             // document.getElementByClassName('side-filter').style.display = 'block';
             // console.log($(document).getElementByClassName('side-filter'), "nope");
+            console.log("not hitting");
         }
     });
 
